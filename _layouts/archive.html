@@ -17,9 +17,7 @@ layout: default
 
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
-    <div style="background-color: #585858;">
-      <h1 class="page__title">{{ page.title }}</h1>
-    </div>
+    <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}
     {{ content }}
   </div>
