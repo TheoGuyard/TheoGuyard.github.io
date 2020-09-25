@@ -2,24 +2,33 @@
 main:
   - title: "Schooling"
     url: /schooling/
+    
+  - title: "Experiences"
+    url: /experiences/
 
   - title: "Publications"
     url: /publications/
+  
+  - title: "Associative commitment"
+    url: /associative/
+  
+  - title: "Hobbies"
+    url: /hobbies/
 
-  - title: "Talks"
-    url: /talks/    
+  #- title: "Talks"
+  #  url: /talks/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  #- title: "Teaching"
+  #  url: /teaching/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+  #- title: "Portfolio"
+  #  url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /year-archive/
+  #- title: "Blog Posts"
+  #  url: /year-archive/
     
   - title: "CV"
     url: /cv/
     
-  - title: "Guide"
-    url: /markdown/
+  #- title: "Guide"
+  #  url: /markdown/
