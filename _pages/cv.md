@@ -11,4 +11,5 @@ redirect_from:
 
 CV
 =====
+English and French CV will be ready soon !
 

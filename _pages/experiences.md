@@ -12,8 +12,8 @@ redirect_from:
 Experiences
 ======
 
-`Summer 2020` **| Internship at INRIA Rennes**
+`Summer 2020` **\| Internship at INRIA Rennes**
 
-`Summer 2019` **| Internship at IRMAR**
+`Summer 2019` **\| Internship at IRMAR**
 
-`Summer 2017` **| Internship at NGE**
+`Summer 2017` **\| Internship at NGE**

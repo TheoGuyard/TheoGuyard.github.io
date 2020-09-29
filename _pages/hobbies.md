@@ -14,7 +14,7 @@ Hobbies
 
 **Music**
 
-> Trek and hicking
+**Trek and hiking**
 
 **Surf**
 
