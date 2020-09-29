@@ -14,40 +14,40 @@ Skills
 
 ## Mathematics
 
-**Optimization**
+- **Optimization** :
 
-blahblah
+- **Parsimony** :
 
-**Parsimony**
+- **Operational Research** :
 
-**Operational Research**
+- **Machine Learning** :
 
-**Machine Learning**
+- **Statistics** :
 
-**Statistics**
-
-**Theoretical maths**
+- **Theoretical maths** :
 
 ## Informatics
 
-**Python**
+- **Python** :
 
-**Julia**
+- **Julia** :
 
-**R**
+- **R** :
 
-**Matlab**
+- **Matlab** :
 
-**C++**
+- **C++** :
 
-**Web**
+- **Web** :
+
+- **Git** :
 
 ## Social
 
-**Leadership**
+- **Motivation** :
 
-**Motivation**
+- **Curiosity** :
 
-**Curiosity**
+- **Hard worker** :
 
-**Hard worker**
+- **Leadership** :
