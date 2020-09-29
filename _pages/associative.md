@@ -11,6 +11,11 @@ redirect_from:
 
 Associative commitment
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+
+`2019-2020` : **Board member at AEIR**
+
+`2016-2019` : **Head and member of several student organization**
+
+`2017-2020` : **Elected to the school council**
+
+`2015-2016` : **Director of the student organization**

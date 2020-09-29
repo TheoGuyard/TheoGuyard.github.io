@@ -11,6 +11,41 @@ redirect_from:
 
 Skills
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+
+## Mathematics
+
+**Optimization**
+
+**Parsimony**
+
+**Operational Research**
+
+**Machine Learning**
+
+**Statistics**
+
+**Theoretical maths**
+
+## Informatics
+
+**Python**
+
+**Julia**
+
+**R**
+
+**Matlab**
+
+**C++**
+
+**Web**
+
+## Social
+
+**Leadership**
+
+**Motivation**
+
+**Curiosity**
+
+**Hard worker**

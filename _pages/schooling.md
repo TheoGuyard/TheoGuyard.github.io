@@ -9,8 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Schooling
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+
+`2020-2021` : **INSA Rennes, Research program**
+
+`2019-2020` : **INRIA Rennes, Research program**
+
+`2018-2021` : **INSA Rennes, Mathematics department**
+
+`2016-2018` : **INSA Rennes, Preparatory class**
