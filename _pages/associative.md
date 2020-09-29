@@ -12,7 +12,7 @@ redirect_from:
 Associative commitment
 ======
 
-`2019-2020` | **Board member at AEIR**
+`2019-2020` \| **Board member at AEIR**
 
 `2016-2019` : **Head and member of several student organization**
 
