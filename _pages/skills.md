@@ -16,6 +16,8 @@ Skills
 
 **Optimization**
 
+blahblah
+
 **Parsimony**
 
 **Operational Research**
