@@ -15,7 +15,7 @@ Schooling
 `2020-2021` **\| INSA Rennes, Research program**
 
 Blablabla
-<img style="float: right; width: 100px;" src="images/../../images/logo-insa.png">
+<img style="float: right; width: 300px;" src="../images/logo-insa.png">
 
 `2019-2020` **\| INRIA Rennes, Research program**
 
