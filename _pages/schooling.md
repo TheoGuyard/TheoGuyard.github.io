@@ -14,6 +14,9 @@ Schooling
 
 `2020-2021` **\| INSA Rennes, Research program**
 
+Blablabla
+<img style="float: right;" src="images/../../images/logo-insa.png">
+
 `2019-2020` **\| INRIA Rennes, Research program**
 
 `2018-2021` **\| INSA Rennes, Mathematics department**
