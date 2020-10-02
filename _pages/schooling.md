@@ -31,7 +31,7 @@ After two years in preparatory class, I joined the [Mathematics Department](http
 Diplomas
 =====
 
-`Expected in 2021` **\| Mathematical engineer degree at [INSA Rennes](https://www.insa-rennes.fr)**
+`Expected in 2021` **\| Mathematical engineering degree at [INSA Rennes](https://www.insa-rennes.fr)**
 
 `2019` **\| Handimanagement degree delivered by [Companieros](https://www.companieros.com)**
 

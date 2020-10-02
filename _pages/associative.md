@@ -18,7 +18,7 @@ Associative commitment
 
 `2016-2019` **\| Head and member of several student organizations**
 
-[AEIR](http://aeir.insa-rennes.fr) is a student association. It is composed of almost 30 clubs with various purposes : concerts, art, music, sport, culture and much more ... About 1000 people are members of AEIR each year. The annual budget is about 1 million euros. For three years, I was really involved in this organization and was responsible in many clubs.
+[AEIR](http://aeir.insa-rennes.fr) is a student association. It is composed of almost 30 clubs with various purposes : concerts, art, music, sport, culture and much more ... About 1000 people are members of AEIR each year. The annual budget is about 1 million euros. For three years, I was really involved in this organization and was responsible for many clubs.
 
 `2017-2021` **\| Elected to the INSA school council**
 
