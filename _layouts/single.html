@@ -42,6 +42,17 @@ layout: default
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         
+        {% if page.collection == 'publication' %}
+          {% if page.abstract %}
+            <p><bold>Abstract -</bold> {{ page.abstract }}</p>
+          {% endif %}
+          {% if page.index %}
+            <p><bold>Index words -</bold> {{ page.index }}</p>
+          {% endif %}
+          {% if page.paperurl %}
+            <p><a href="{{ page.paperurl }}">Download paper here</a></p>
+          {% endif %}
+        {% endif %}
              
         {% if page.citation and page.paperurl %}
           <p>Recommended citation : {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
