@@ -32,15 +32,16 @@ Skills
 - **Web** : Five years of practice with Django/HTML/CSS/JS.
 - **Git** : Github and Gitlab usage for my school and personnal projects.
 
+## Languages
+
+- **French** 🇫🇷 &nbsp;: Native language.
+- **Engligh** 🇬🇧 &nbsp;: C1 level. Vey comfortable reading and speaking skills.
+- **Spanish** 🇪🇸 &nbsp;: B2 level. Good reading and speaking skills.
+
 ## Social
 
-- **Motivation** : I am always actuated when dealing with scientific projects. Since I was a child, I have wanted to work in this field. Working with maths and informatics if like a game for me so you can count on me and on my implication !
+- **Motivation** : I am always actuated when dealing with scientific projects. Since I was a child, I have wanted to practise in this field. Working with maths and informatics if like a game for me so you can count on me and on my implication !
 - **Curiosity** : My two parents work with Mathematics and Informatics. I owe them my curiosity for these fields. They told and taught me a lot during many years about science.
 - **Hard worker** : I like it when my work is done to the end, clean and clear. I don't leave things half done.
 - **Leadership** : During my experiences with different associations, I learned lots of social skills, including leadership. Take a look at the [Associative commitment](https://theoguyard.github.io/associative/) section to see what I have done in recent times.
-
-## Languages
-
-- **French** 🇫🇷 &nbsp; : Native language.
-- **Engligh** 🇬🇧 &nbsp; : C1 level. Vey comfortable reading and speaking skills.
-- **Spanish** 🇪🇸 &nbsp; : B2 level. Good reading and speaking skills.
+- **Open minded** : Even if I am very intersesting about science, I also like other topics. Take a look at the [Hobbies](https://theoguyard.github.io/hobbies/) section !
