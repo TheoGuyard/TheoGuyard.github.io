@@ -30,7 +30,7 @@ main:
   #- title: "Blog Posts"
   #  url: /year-archive/
     
-  - title: "CV download"
+  - title: "CV"
     url: /cv/
     
   #- title: "Guide"
