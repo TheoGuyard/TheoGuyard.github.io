@@ -38,7 +38,7 @@ Skills
 - **Engligh** 🇬🇧 &nbsp;: C1 level. Vey comfortable reading and speaking skills.
 - **Spanish** 🇪🇸 &nbsp;: B2 level. Good reading and speaking skills.
 
-## Social
+## Social 
 
 - **Motivation** : I am always actuated when dealing with scientific projects. Since I was a child, I have wanted to practise in this field. Working with maths and informatics if like a game for me so you can count on me and on my implication !
 - **Curiosity** : My two parents work with Mathematics and Informatics. I owe them my curiosity for these fields. They told and taught me a lot during many years about science.
