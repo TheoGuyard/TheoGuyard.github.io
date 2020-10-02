@@ -14,7 +14,7 @@ Schooling
 
 `2020-2021` **\| IRMAR Rennes, Research program**
 
-The [Mathematics Department](https://www.insa-rennes.fr/gm.html) of [INSA Rennes](https://www.insa-rennes.fr) allow student to be involved in a Research program. For six months, I worked with Jeremy Omer and Ayse Nur Arslan from [IRMAR](https://irmar.univ-rennes1.fr). The aim was to develop an efficient two-stages optimization algorithm for the European Kidney Exchange Program. More information can be found in the [Portfolio](https://theoguyard.github.io/portfolio/) section.
+The [Mathematics Department](https://www.insa-rennes.fr/gm.html) of [INSA Rennes](https://www.insa-rennes.fr) allow student to be involved in a Research program. For six months, I worked with Jeremy Omer and Ayse Nur Arslan from [IRMAR](https://irmar.univ-rennes1.fr). The aim was to develop an efficient two-stage optimization algorithm for the European Kidney Exchange Program. More information can be found in the [Portfolio](https://theoguyard.github.io/portfolio/) section.
 
 `2019-2020` **\| INRIA Rennes, Research program**
 
@@ -35,6 +35,6 @@ Diplomas
 
 `2019` **\| Handimanagement degree delivered by [Companieros](https://www.companieros.com)**
 
-`2015` **\| French Baccalaureate with mention 'Very well and Jury's congratulations**
+`2015` **\| French Baccalaureate with mention "Very well and Jury's congratulations"**
 
 `2014` **\| Cambridge English Certificate (B2 level)**

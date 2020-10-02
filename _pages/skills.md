@@ -34,9 +34,9 @@ Skills
 
 ## Languages
 
-- **French** 🇫🇷 &nbsp;: Native language.
-- **Engligh** 🇬🇧 &nbsp;: C1 level. Vey comfortable reading and speaking skills.
-- **Spanish** 🇪🇸 &nbsp;: B2 level. Good reading and speaking skills.
+- **French** 🇫🇷 : Native language.
+- **Engligh** 🇬🇧 : C1 level. Vey comfortable reading and speaking skills.
+- **Spanish** 🇪🇸 : B2 level. Good reading and speaking skills.
 
 ## Social 
 
