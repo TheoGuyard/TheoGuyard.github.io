@@ -12,19 +12,29 @@ redirect_from:
 Schooling
 ======
 
-`2020-2021` **\| INSA Rennes, Research program**
+`2020-2021` **\| IRMAR Rennes, Research program**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The [Mathematics Department](https://www.insa-rennes.fr/gm.html) of [INSA Rennes](https://www.insa-rennes.fr) allow student to be involved in a Research program. For six months, I worked with Jeremy Omer and Ayse Nur Arslan from [IRMAR](https://irmar.univ-rennes1.fr). The aim was to develop an efficient two-stages optimization algorithm for the European Kidney Exchange Program. More information can be found in the [Portfolio](https://theoguyard.github.io/portfolio/) section.
 
 `2019-2020` **\| INRIA Rennes, Research program**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The [Mathematics Department](https://www.insa-rennes.fr/gm.html) of [INSA Rennes](https://www.insa-rennes.fr) allow student to be involved in a Research program. For a year, I worked with Cedric Herzet and Clement Elvira from [INRIA Rennes](https://www.inria.fr/fr/centre-inria-rennes-bretagne-atlantique). During six months, I did some bibliography about Screening tests for the LASSO problem. During the following months, we worked together on new Screening techniques which led to the writing of a paper. More information can be found in the [Publications](https://theoguyard.github.io/publications/) and [Portfolio](https://theoguyard.github.io/portfolio/) sections.
 
 `2018-2021` **\| INSA Rennes, Mathematics department**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+After two years in preparatory class, I joined the [Mathematics Department](https://www.insa-rennes.fr/gm.html) of [INSA Rennes](https://www.insa-rennes.fr). During three years, a large part of mathematics is taught to train engineers with a strong theoretical and practical knowledge. More informations about skills acquired can be found in the [Skills](https://theoguyard.github.io/skills/) section.
 
 `2016-2018` **\| INSA Rennes, Preparatory class**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[INSA Rennes](https://www.insa-rennes.fr) is an Engineering School which delivers a diploma with different specialties. It is possible to join it directly after the French Baccalaureate. In this case, a two-year preparatory class is first attended by students. The aim is to give them a broad overview of engineering skills including Electronics, Mechanics, Mathematics, Informatics, Chemistry ... The courses are similar to those of a classical preparatory class but the practical part of the program has been accentuated.
+
+Diplomas
+=====
+
+`Expected in 2021` **\| Mathematical engineer degree at [INSA Rennes](https://www.insa-rennes.fr)**
+
+`2019` **\| Handimanagement degree delivered by [Companieros](https://www.companieros.com)**
+
+`2015` **\| French Baccalaureate with mention 'Very well and Jury's congratulations**
+
+`2014` **\| Cambridge English Certificate (B2 level)**

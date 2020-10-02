@@ -12,6 +12,9 @@ main:
   - title: "Publications"
     url: /publications/
   
+  - title: "Portfolio"
+    url: /portfolio/
+  
   - title: "Associative commitment"
     url: /associative/
   
@@ -23,14 +26,11 @@ main:
 
   #- title: "Teaching"
   #  url: /teaching/    
-    
-  #- title: "Portfolio"
-  #  url: /portfolio/
         
   #- title: "Blog Posts"
   #  url: /year-archive/
     
-  - title: "Download my CV !"
+  - title: "CV download"
     url: /cv/
     
   #- title: "Guide"
