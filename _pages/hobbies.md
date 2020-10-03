@@ -19,6 +19,3 @@ Hobbies
 **Biking :** In the summer 2020, I decided with two friends to bike along a part of the [Vélodyssée](https://www.lavelodyssee.com), from Bordeaux to Rennes. Unfortunately, we started together but I had to finish the journey alone, but it was a great experience and I'll continue to plan biking trip in the future for sure !
 
 **Eco-building :** Since few years, I have been thinking about constructing my own house one day. I really like container's houses and I often search about how they are made. As for eco-building, I am really interested in making my own garden whenever possible. 
-
-
-<img src="http://theoguyard.github.io/images/gr20-2.jpg" alt="Chicago" style="width:100%;">
