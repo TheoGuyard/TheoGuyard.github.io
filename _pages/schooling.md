@@ -28,8 +28,7 @@ After two years in preparatory class, I joined the [Mathematics Department](http
 
 [INSA Rennes](https://www.insa-rennes.fr) is an Engineering School which delivers a diploma with different specialties. It is possible to join it directly after the French Baccalaureate. In this case, a two-year preparatory class is first attended by students. The aim is to give them a broad overview of engineering skills including Electronics, Mechanics, Mathematics, Informatics, Chemistry ... The courses are similar to those of a classical preparatory class but the practical part of the program has been accentuated.
 
-Diplomas
-=====
+<h2 style="color:#ff6600;"><strong>Mathematics</strong></h2>
 
 `Expected in 2021` **\| Mathematical engineering degree at [INSA Rennes](https://www.insa-rennes.fr)**
 
