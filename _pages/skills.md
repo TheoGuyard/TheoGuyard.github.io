@@ -12,7 +12,7 @@ redirect_from:
 Skills
 ======
 
-<h2 style="color:#ff9933;"><strong>Mathematics</strong></h2>
+<h2 style="color:{{ colors.secondary }};"><strong>Mathematics</strong></h2>
 
 - **Optimization** : Convex and non-smooth optimization, Gradient-based algorithms, Proximal methods, ADMM, High-dimentional optimization.
 - **Parsimony** : Sparse models, LASSO problem and solving methods, Screening tests, PCA.
@@ -24,7 +24,7 @@ Skills
 
 ---
 
-<h2 style="color:#4dd2ff;"><strong>Informatics</strong></h2>
+<h2 style="color:#ff6600;"><strong>Informatics</strong></h2>
 
 - **Python** : Almost ten years of practice, Most of scientific packages, Pep8 and clean code of course.
 - **Julia** : Three years of practice, Most of Operation research packages.
@@ -44,7 +44,7 @@ Skills
 
 ---
 
-<h2 style="color:#ff5050;"><strong>Social</strong></h2>
+<h2 style="color:#ff6600;"><strong>Social</strong></h2>
 
 - **Motivation** : I am always actuated when dealing with scientific projects. Since I was a child, I have wanted to practise in this field. Working with maths and informatics if like a game for me so you can count on me and on my implication !
 - **Curiosity** : My two parents work with Mathematics and Informatics. I owe them my curiosity for these fields. They told and taught me a lot during many years about science.
