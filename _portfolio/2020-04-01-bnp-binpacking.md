@@ -1,7 +1,8 @@
 ---
-title: "Turbo screening"
-excerpt: "New screening tests to improve most of existing solving methods for the non-negative LASSO problem."
+title: "Branch-and-Price for the Bin-Packing Problem"
+excerpt: "BnP algorithm featuring several branching schemes and heurisitcs methods to solve the BPP."
 collection: portfolio
+date: 2020-04-01
 ---
 
 During a little over a year, I worked with Cedric Herzet and Clement Elvira from [INRIA Rennes](https://www.inria.fr/fr/centre-inria-rennes-bretagne-atlantique) as part of my Research project in 4th year at [INSA Rennes](https://www.insa-rennes.fr). The aim was to first study the bibliography about [Screening tests](https://arxiv.org/pdf/1009.4219) developed since 2011 by Laurent El Ghaoui at Berkley. These tests aim to reduce the solving time of methods dealing with LASSO-type problems. For the first six months, I read many articles about this problem, about sparse representation and about optimization methods. I wrote a first [report](http://theoguyard.github.io/files/turbo-screening-s1.pdf) in which I explain state of art methods using these new screening tests.
