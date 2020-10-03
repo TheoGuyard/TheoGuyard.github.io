@@ -11,5 +11,5 @@ redirect_from:
 
 CV
 =====
-English and French CV will be ready soon !
+English and French CV will be ready soon ! However, you can find all necessary informations about me directly in this website.
 

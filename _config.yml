@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Theo Guyard"
 title_separator          : "-"
 name                     : &name "Theo Guyard"
-description              : &description "21 years old. French nationality. B driving licence. Current student at INSA Rennes, Mathematics Department."
+description              : &description "Current student at INSA Rennes, Mathematics Department. 21 years old. French nationality. B driving licence. "
 url                      : https://theoguyard.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "TheoGuyard/TheoGuyard.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Theo Guyard"
   avatar           : "profile.png"
-  bio              : "21 years old. French nationality. B driving licence. Current student at INSA Rennes, Mathematics Department."
+  bio              : "Current student at INSA Rennes, Mathematics Department. 21 years old. French nationality. B driving licence. "
   location         : "Rennes"
   employer         :
   pubmed           : # example "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -106,7 +106,7 @@ author:
   orcid            : # example "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : "https://stackoverflow.com/users/14385298/theo-guyard"
   steam            :
   tumblr           :
   twitter          : # "replacethistwitterhandle"
