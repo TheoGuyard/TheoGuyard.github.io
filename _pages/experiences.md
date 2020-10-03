@@ -12,11 +12,11 @@ redirect_from:
 Experiences
 ======
 
-`Summer 2020` **\| Internship at INRIA Rennes**
+<h4 style="color:#ff6600;"><code>Summer 2020</code> <strong>| Internship at INRIA Rennes</strong></h4>
 
 The [Mathematics Department](https://www.insa-rennes.fr/gm.html) of [INSA Rennes](https://www.insa-rennes.fr) allow student to be involved in a Research program. After a year of collaboration with Cedric Herzet and Clement Elvira from [INRIA Rennes](https://www.inria.fr/fr/centre-inria-rennes-bretagne-atlantique), I made a three months internship with them to conclude our research work on new Screening methods to improve algorithms dealing with the LASSO problem. We wrote a paper in the view of presenting it at [ICASSP 2021](https://2021.ieeeicassp.org). More information about our work can be found in the [Publications](https://theoguyard.github.io/publications/) and [Portfolio](https://theoguyard.github.io/portfolio/) sections.
 
-`Summer 2019` **\| Internship at IRMAR**
+<h4 style="color:#ff6600;"><code>Summer 2019</code> <strong>| Internship at IRMAR</strong></h4>
 
 During three months, I worked with Jeremy Omer from [IRMAR](https://irmar.univ-rennes1.fr) on an Operation Research problem that I suggested to him. The aim was to find the optimal path for a groomer in a ski station. Although I had no knowledge about Operation Research and Discrete Optimization, I managed to design and code a Branch-and-Price algorithm for this practical problem. It was my first step into the world of research. More information can be found in the [Portfolio](https://theoguyard.github.io/portfolio/) section and in my [Github](https://github.com/TheoGuyard/Groomer-Optimization-Problem).
 
