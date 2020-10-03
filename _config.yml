@@ -48,6 +48,8 @@ staticman:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
+
+# Website colors
 colors:
   primary                : ""
   secondary              : "#ff6600"
