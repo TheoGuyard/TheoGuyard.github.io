@@ -33,6 +33,7 @@ Skills
 - **C++** : Two years of practice, Global programming knowledge.
 - **Web** : Five years of practice with Django/HTML/CSS/JS.
 - **Git** : Github and Gitlab usage for my school and personnal projects.
+- **LaTex** : Usage for my school and personnal projects.
 
 ---
 
