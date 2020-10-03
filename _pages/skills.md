@@ -12,7 +12,7 @@ redirect_from:
 Skills
 ======
 
-<h2 style="color:{{ colors.secondary }};"><strong>Mathematics</strong></h2>
+<h2 style="color:#ff6600;"><strong>Mathematics</strong></h2>
 
 - **Optimization** : Convex and non-smooth optimization, Gradient-based algorithms, Proximal methods, ADMM, High-dimentional optimization.
 - **Parsimony** : Sparse models, LASSO problem and solving methods, Screening tests, PCA.

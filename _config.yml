@@ -49,11 +49,6 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
-# Website colors
-colors:
-  primary                : ""
-  secondary              : "#ff6600"
-
 # SEO Related
 google_site_verification :
 bing_site_verification   :
