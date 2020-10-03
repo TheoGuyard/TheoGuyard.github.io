@@ -22,6 +22,8 @@ Skills
 - **Numerical methods** : Linear system resolution, Interpolation, Fourier and Laplace transform, Eigenvalue and singular value decomposition.
 - **Theoretical maths** : Topology, Analysis, Algebra.
 
+---
+
 ## Informatics
 
 - **Python** : Almost ten years of practice, Most of scientific packages, Pep8 and clean code of course.
@@ -32,11 +34,15 @@ Skills
 - **Web** : Five years of practice with Django/HTML/CSS/JS.
 - **Git** : Github and Gitlab usage for my school and personnal projects.
 
+---
+
 ## Languages
 
 - **French** 🇫🇷 : Native language.
 - **Engligh** 🇬🇧 : C1 level. Very good reading, writing and speaking skills.
 - **Spanish** 🇪🇸 : B2 level. Good reading and speaking skills.
+
+---
 
 ## Social 
 
