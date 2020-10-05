@@ -11,5 +11,8 @@ redirect_from:
 
 CV
 =====
-English and French CV will be ready soon ! However, you can find all necessary informations about me directly in this website.
 
+You can download my French and English CV which summarise what is written on this site :
+
+* [French CV](../file/../files/cv-fr.pdf)
+* [English CV](../file/../files/cv-en.pdf)
