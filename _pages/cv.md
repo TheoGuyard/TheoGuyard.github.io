@@ -12,7 +12,7 @@ redirect_from:
 CV
 =====
 
-You can download my French and English CV which summarise what is written on this site :
+You can download my French and English CV summarising what is written on this site :
 
 * [French CV](../file/../files/cv-fr.pdf)
 * [English CV](../file/../files/cv-en.pdf)
