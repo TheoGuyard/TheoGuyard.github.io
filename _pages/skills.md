@@ -40,7 +40,7 @@ Skills
 <h2 style="color:#ff6600;"><strong>Languages</strong></h2>
 
 - **French** 🇫🇷 : Native language.
-- **Engligh** 🇬🇧 : C1 level. Very good reading, writing and speaking skills.
+- **Engligh** 🇬🇧 : 970 / 990 at TOEIC. Very good reading, writing and speaking skills.
 - **Spanish** 🇪🇸 : B2 level. Good reading and speaking skills.
 
 ---
