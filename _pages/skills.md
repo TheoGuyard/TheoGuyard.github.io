@@ -28,7 +28,7 @@ Skills
 <h2 style="color:#ff6600;"><strong>Informatics</strong></h2>
 
 - **Python** : Almost ten years of practice, Most of scientific packages knowledge, Pep8 and clean code of course.
-- **Julia** : Three years of practice, Most of Operation Research packages knowledge.
+- **Julia** : Three years of practice, Most of scientific packages knowledge.
 - **R** : Three years of practice, Statistics and Machine Learning packages knowledge.
 - **Matlab** : Three years of practice, Algebra and Optimization usage.
 - **C++** : Two years of practice, Global programming knowledge.
