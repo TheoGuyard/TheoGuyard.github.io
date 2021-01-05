@@ -34,7 +34,7 @@ After two years in preparatory class, I joined the [Mathematics Department](http
 
 `Expected in 2021` **\| Mathematical engineering degree at [INSA Rennes](https://www.insa-rennes.fr)**
 
-`2021` **\| [TOEIC](https://www.etsglobal.org/fr/fr/programme/tests-toeic) English certificate with a 970/990 score (C1 speaking/reading/writing level)**
+`2020` **\| [TOEIC](https://www.etsglobal.org/fr/fr/programme/tests-toeic) English certificate with a 970/990 score (C1 speaking/reading/writing level)**
 
 `2019` **\| Handimanagement degree delivered by [Companieros](https://www.companieros.com)**
 
