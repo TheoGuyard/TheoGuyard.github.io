@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Theo Guyard"
 title_separator          : "-"
 name                     : &name "Theo Guyard"
-description              : &description "Current student at INSA Rennes, Mathematics Department. 21 years old. French nationality. B driving licence. "
+description              : &description "Current student at INSA Rennes, Mathematics Department. 22 years old. French nationality. B driving licence. "
 url                      : https://theoguyard.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "TheoGuyard/TheoGuyard.github.io"
