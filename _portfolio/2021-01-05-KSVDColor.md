@@ -9,5 +9,5 @@ For an INSA project, I had to adapt the original KSVD algorithm introduced in [1
 
 ### References
 
-* [1] Michal Aharon, Michael Elad, and Alfred Bruckstein. **K-SVD: An algorithmfor designing overcomplete dictionaries for sparse representation**. In IEEE Transactions on image processing.
-* [2] Julien Mairal, Michael Elad, and Guillermo Sapiro. **Sparse representation forcolor image restoration**. In IEEE Transactions on image processing.
+* [1] Michal Aharon, Michael Elad, and Alfred Bruckstein. *K-SVD: An algorithm for designing overcomplete dictionaries for sparse representation*. In IEEE Transactions on image processing.
+* [2] Julien Mairal, Michael Elad, and Guillermo Sapiro. *Sparse representation forcolor image restoration*. In IEEE Transactions on image processing.
