@@ -15,9 +15,10 @@ Skills
 <h2 style="color:#ff6600;"><strong>Mathematics</strong></h2>
 
 - **Optimization** : Convex and non-smooth optimization, Gradient-based algorithms, Proximal methods, ADMM, High-dimentional optimization.
-- **Parsimony** : Sparse models, LASSO problem and solving methods, Screening tests, PCA.
-- **Operation Research** : Linear and Integer programing, Modelling, Branch-and-Price/Cut/Bound, Cutting plane methods, Bender decomposition, Robust optimization, Stochastic optimization, Polyhedron theory, Graph theory.
-- **Machine Learning** : Dictionary learning, Neural networks, Random forest, Bagging, Boosting, Linear and logistic regression, Regularized models, SVM, Binary trees.
+- **Stochastic models** : Linear and integer models with uncertain data, Robust optimization, Two-stage programming, CVaR models, Structure exploiting decomposition methods. 
+- **Sparse coding** : Sparse models, LASSO problem and solving methods, Screening tests, PCA.
+- **Operation Research** : Linear and Integer programing, Modelling, Branch-and-Price/Cut/Bound, Cutting plane methods, Polyhedron theory, Graph theory.
+- **Machine Learning** : Dictionary learning, Neural networks, Random forest, Bagging, Boosting, Linear and logistic regression, Regularized models, SVM, Binary trees, Gaussian processes.
 - **Statistics** : Scoring, Time series (ARMA/ARIMA/SARIMA), Mathematical statistics, Lifetime models.
 - **Numerical methods** : Linear system resolution, Interpolation, Fourier and Laplace transform, Eigenvalue and singular value decomposition.
 - **Theoretical maths** : Topology, Analysis, Algebra.
