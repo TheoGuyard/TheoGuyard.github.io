@@ -36,6 +36,8 @@ After two years in preparatory class, I joined the [Mathematics Department](http
 
 `2020` **\| [TOEIC](https://www.etsglobal.org/fr/fr/programme/tests-toeic) English certificate with a 970/990 score (C1 speaking/reading/writing level)**
 
+`2019` **\| [PSC1](https://www.formationpsc1.com) civil security diploma**
+
 `2019` **\| Handimanagement degree delivered by [Companieros](https://www.companieros.com)**
 
 `2015` **\| French Baccalaureate with mention "Very well and Jury's congratulations"**
