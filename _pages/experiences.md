@@ -12,9 +12,13 @@ redirect_from:
 Experiences
 ======
 
+`Jan-July 2021` **\| Research internship at CentraleSupelec**
+
+As end-of-study internship for my schoolling at [INSA Rennes](https://www.insa-rennes.fr), I worked under the supervision of Clement Elvira at [CentraleSupelec](https://www.centralesupelec.fr) and also with Cedric Herzet. The aim of the intership was to develop screening methods, originally designed for convex problems, for non-convex QMIPS problems related to the L0-penalized regression. It was also the opportunity to start working on my future PhD subject.
+
 `Summer 2020` **\| Research internship at INRIA Rennes**
 
-The [Mathematics Department](https://www.insa-rennes.fr/gm.html) of [INSA Rennes](https://www.insa-rennes.fr) allow student to be involved in a Research program. After a year of collaboration with Cedric Herzet and Clement Elvira from [INRIA Rennes](https://www.inria.fr/fr/centre-inria-rennes-bretagne-atlantique), I made a three months internship with them to conclude our research work on new Screening methods to improve algorithms dealing with the LASSO problem. We wrote a paper in the view of presenting it at [ICASSP 2021](https://2021.ieeeicassp.org). More information about our work can be found in the [Publications](https://theoguyard.github.io/publications/) and [Portfolio](https://theoguyard.github.io/portfolio/) sections.
+The [Mathematics Department](https://www.insa-rennes.fr/gm.html) of [INSA Rennes](https://www.insa-rennes.fr) allow student to be involved in a Research program. After a year of collaboration with Cedric Herzet and Clement Elvira from [INRIA Rennes](https://www.inria.fr/fr/centre-inria-rennes-bretagne-atlantique), I made a three months internship with them to conclude our research work on new Screening methods to improve algorithms dealing with the LASSO problem. 
 
 `Summer 2019` **\| Research internship at IRMAR**
 
