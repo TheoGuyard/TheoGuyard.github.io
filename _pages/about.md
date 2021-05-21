@@ -16,4 +16,4 @@ About me
 
 I am currently a fifth year student at [INSA Rennes](https://www.insa-rennes.fr), specialising in the [Mathematics Department](https://www.insa-rennes.fr/gm.html). I am learning both theoretical and applied mathematics. Although I am in engineering school, I would like to find myself towards research. That's why I followed a specialised course at the INSA, which has enabled me to work in collaboration with researchers for the past three years.
 
-I am currently looking for a **5-month end-of-study internship** starting in mid-February 2021. I am also **looking for a PhD**. My objective is to do my internship and my PhD in the same Institute or company. I would like to find a subject in applied mathematics that would allow me to put my theoretical work into practice.
+Yepeee, my PhD grant was accepted 🥳🥳🥳
