@@ -32,9 +32,9 @@ Skills
 - **R** ⭐️⭐️ : Three years of practice, Statistics and Machine Learning packages knowledge.
 - **Matlab** ⭐️⭐️: Three years of practice, Algebra and Optimization usage.
 - **C/C++** ⭐️ : Two years of practice, Global programming knowledge.
+- **Gurobi/CPLEX** ⭐️⭐️⭐️ : Use through the Python's and the Julia's wrapper.
 - **Git** ⭐️⭐️⭐️ : GitHub and GitLab usage for my school and personnal projects.
 - **LaTex** ⭐️⭐️⭐️ : Usage for my school and personnal projects.
-- **Gurobi** ⭐️⭐️⭐️ : Use through the Python's and the Julia's wrapper.
 - **Web** ⭐️⭐️⭐️ : Five years of practice with Django/HTML/CSS/JS.
 
 ---
