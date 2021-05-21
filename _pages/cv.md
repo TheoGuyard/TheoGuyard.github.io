@@ -12,6 +12,8 @@ redirect_from:
 CV
 =====
 
+**LAST UPDATE : October 2021**
+
 You can download my French and English CV summarising what is written on this site :
 
 * [French CV](../file/../files/cv-fr.pdf)
