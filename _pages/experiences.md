@@ -14,7 +14,7 @@ Experiences
 
 `Jan-July 2021` **\| Research internship at CentraleSupelec**
 
-As end-of-study internship for my schoolling at [INSA Rennes](https://www.insa-rennes.fr), I worked under the supervision of Clement Elvira at [CentraleSupelec](https://www.centralesupelec.fr) and also with Cedric Herzet. The aim of the intership was to develop screening methods, originally designed for convex problems, for non-convex QMIPS problems related to the L0-penalized regression. It was also the opportunity to start working on my future PhD subject.
+As end-of-study internship for my schoolling at [INSA Rennes](https://www.insa-rennes.fr), I worked under the supervision of Clement Elvira at [CentraleSupelec](https://www.centralesupelec.fr) and also with Cedric Herzet. The aim of the intership was to develop screening methods, originally designed for convex problems, for non-convex Quadratic Mixed-Integer problems related to the L0-penalized regression. It was also the opportunity to start working on my future PhD subject.
 
 `Summer 2020` **\| Research internship at INRIA Rennes**
 
