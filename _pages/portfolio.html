@@ -1,13 +1,17 @@
 ---
 layout: archive
-title: "Portfolio"
-permalink: /portfolio/
+title: "Software"
+permalink: /software/
 author_profile: true
+redirect_from: /portfolio/
 ---
 
-<h1>Portfolio</h1>
-
 {% include base_path %}
+
+{% if site.author.github %}
+Find all my sofware on <a href="https://github.com/{{site.author.github}}">my Github page</a>.
+{% endif %}
+
 
 {% for post in site.portfolio reversed %}
   {% include archive-single.html %}

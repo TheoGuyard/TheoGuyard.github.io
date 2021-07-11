@@ -1,37 +1,23 @@
 # main links links
 main:
-  - title: "Schooling"
-    url: /schooling/
-    
-  - title: "Experiences"
-    url: /experiences/
-    
-  - title: "Skills"
-    url: /skills/
+
+  - title: "Posts"
+    url: /posts/
 
   - title: "Publications"
     url: /publications/
-  
-  - title: "Portfolio"
-    url: /portfolio/
-  
-  - title: "Associative commitment"
-    url: /associative/
-  
-  - title: "Hobbies"
-    url: /hobbies/
+
+  - title: "Software"
+    url: /software/
+      
+  - title: "Teaching"
+    url: /teaching/    
 
   #- title: "Talks"
-  #  url: /talks/    
+  #  url: /talks/   
 
-  #- title: "Teaching"
-  #  url: /teaching/    
-        
-  #- title: "Blog Posts"
-  #  url: /year-archive/
-    
   - title: "CV"
     url: /cv/
+
+  
     
-  #- title: "Guide"
-  #  url: /markdown/
