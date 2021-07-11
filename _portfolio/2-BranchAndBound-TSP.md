@@ -1,6 +1,6 @@
 ---
-title: "Groomer Optimization Problem"
-excerpt: "Groomer Optimization by Branch-and-Price (Python)"
+title: "Branch-and-Bound for the TSP"
+excerpt: "Branch-and-Bound for the TSP (Python)"
 collection: portfolio
 code: 'https://github.com/TheoGuyard/TSP-BnB-CP'
 paperurl:

@@ -10,7 +10,7 @@ redirect_from:
 
 <!-- {% include base_path %} -->
 
-[<span><i class="fas fa-fw fa-file-pdf"></i></span>PDF version of my CV here !](/files/cv_en.pdf)
+[<span><i class="fas fa-fw fa-file-pdf"></i></span>PDF version of my CV here !](/files/cv-en.pdf)
 
 ## Education
 
@@ -46,40 +46,39 @@ redirect_from:
 ## Scientific activities
 
 <!---
-### Workshops
+#### Workshops
   * 
 --->
 
-### Summer schools
+#### Summer schools
   * `2021` **\| CIMI-ANITI School on Optimization :** The [CIMI-ANITI School on Optimization](https://indico.math.cnrs.fr/event/6637/) is open to students and scientists eager to consolidate their expertise in the various aspects of optimization.
 
 <!---
-### Event Organization
+#### Event Organization
   * 
 --->
 
 <!---
-### Peer Reviewing
+#### Peer Reviewing
   * 
 --->
 
 
 ## Skills
 
-### Software
+#### Software
   * Python : Almost ten years of practice, Most of scientific packages knowledge, Pep8 and clean code of course.
   * Julia : Three years of practice, Most of scientific packages knowledge.
   * C/C++ : Two years of practice, Global programming knowledge.
   * R : Three years of practice, Statistics and Machine Learning packages knowledge.
   * Matlab : Three years of practice, Algebra and Optimization usage.
-### Tools
+#### Tools
   * Linux : Use for my research and personal projects.
   * Gurobi / CPLEX : Use through the Python’s and the Julia’s wrapper.
   * Git : GitHub and GitLab usage for my research and personal projects.
   * LaTeX : Usage for my research and schooling projects.
   * Web : Five years of practice with Django/HTML/CSS/JS.
-  
-### Languages
+#### Languages
   * French 🇫🇷 : Native language.
   * English 🇬🇧 : 970/990 at TOEIC, fluent.
   * Spanish 🇪🇸 : B2 level. Good reading and speaking skills.
