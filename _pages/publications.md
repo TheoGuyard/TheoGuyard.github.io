@@ -12,7 +12,6 @@ excerpt: False
 You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
 {% endif %}
 
-
 ## Journal articles
 
 {% for post in site.publications reversed %}
@@ -40,7 +39,7 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">my Goog
 ## Other publications
 
 {% for post in site.publications reversed %}
-  {% if post.venuetype == 'misc' or post.venuetype == 'repport'%}
+  {% if post.venuetype == 'misc' or post.venuetype == 'report'%}
     {% include archive-single.html %}
   {% endif%}
 {% endfor %}

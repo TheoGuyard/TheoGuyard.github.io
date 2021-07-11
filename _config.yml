@@ -115,7 +115,7 @@ author:
   name             : "Theo Guyard"
   avatar           : "images/profile-pic.png"
   bio              : "PhD student in Optimization, Signal Processing and Machine Learning"
-  location         : "INSA/INRIA/CentraleSupelec, Rennes, France"
+  location         : "Rennes, France"
   pubmed           : 
   googlescholar    : 
   email            : "theo.guyard@insa-rennes.fr"
@@ -128,18 +128,18 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/TheoGuyard"
+  github           : "TheoGuyard"
   gitlab           : 
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/théo-guyard-529250155"
+  linkedin         : "théo-guyard-529250155"
   orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : "https://www.stackoverflow.com/users/14385298/theo-guyard"
+  stackoverflow    : "14385298/theo-guyard"
   steam            :
   tumblr           : 
   twitter          : 
@@ -151,7 +151,7 @@ author:
   links: #aditional links
     # - label: "Publons"
     #   icon: "fa fa-fw fa-book"
-    #   url: "https://publons.com/researcher/3196911/cassio-f-dantas/"
+    #   url: "https://publons.com/researcher/"
 
 # Site Footer
 footer:

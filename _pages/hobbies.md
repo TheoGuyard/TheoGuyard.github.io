@@ -9,8 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Hobbies
-======
+# Hobbies
 
 **Music :** I started to play the trumpet at 8 years old and I still play it today. I first played classical music, but I quickly moved on to jazz. I also started to play the piano at 15 years old.
 

@@ -1,6 +1,9 @@
 # main links links
 main:
 
+  - title: "CV"
+    url: /cv/
+
   - title: "Posts"
     url: /posts/
 
@@ -16,8 +19,8 @@ main:
   #- title: "Talks"
   #  url: /talks/   
 
-  - title: "CV"
-    url: /cv/
+  - title: "Hobbies"
+    url: /hobbies/
 
   
     
