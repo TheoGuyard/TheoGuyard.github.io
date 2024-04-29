@@ -1,62 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-  <span name="Head"></span>
-</head>
+<head></head>
 
 <body>
-  <div class="container" style="margin-top: 5%; margin-bottom: 5%">
+  <header></header>
 
-    <span name="NavBar"></span>
+  <main>
+    <section id="about">
+      <div class="container">
 
-    <div class="row">
-      <div class="eight columns" style="margin-top: 5%">
-        <h1> Theo Guyard </h1>
-        <p>
-        <h5>
-          PhD student at <a class="hidelink" href="https://www.inria.fr/fr">INRIA</a> and <a class="hidelink" href="https://www.groupe-insa.fr">INSA</a> Rennes
-        </h5>
-        <a class="hidelink" href="mailto:theo.guyard@insa-rennes.fr">Email</a>
-        - <a class="hidelink" href="https://scholar.google.fr/citations?user=xwtKGaEAAAAJ&hl=fr">Scholar</a>
-        - <a class="hidelink" href="https://github.com/TheoGuyard">Github</a>
-        - <a class="hidelink" href="https://hal.science/search/index/?q=*&authIdPerson_i=1136132">Hal</a>
-        - <a class="hidelink" href="https://orcid.org/0000-0003-0550-8770">Orcid</a>
-        </p>
+        <h2>About</h2>
+        
+        <div class="about-text">
+          <p>
+            I am currently a <b>PhD student</b> at <span name="INRIA"></span> (Simsmart team) and <span name="INSA"></span> (Applied Mathematics Department) Rennes under the supervision of <span name="CedricHerzet"></span>, <span name="ClementElvira"></span> and <span name="AyseArslan"></span>. I earned an engineering degree (MSc equivalent) specialized in Applied Mathematics and was involved in a research program to work with academic researchers for two years before obtaining my engineering degree. I mainly focus on <b>optimization methods</b> (convex, mixed-integer, ...) related to <b>machine learning</b> and <b>signal processing</b> applications.
+          </p>
+          <br>
+          <i class="fas fa-envelope"></i> firstname.lastname@insa-rennes.fr
+          <br>
+          <i class="fa-brands fa-google-scholar"></i> <a href="https://scholar.google.fr/citations?user=xwtKGaEAAAAJ&hl=fr"> Scholar</a>
+          <br>
+          <i class="fa-brands fa-github"></i> <a href="https://github.com/TheoGuyard"> Github</a>
+          <br>
+          <i class="fa-solid fa-book"></i> <a href="https://hal.science/search/index/?q=*&authIdPerson_i=1136132"> Hal</a>
+          <br>
+          <i class="fa-brands fa-orcid"></i> <a href="https://orcid.org/0000-0003-0550-8770"> Orcid</a>
+        </div>
+        <div class="about-image">
+          <p><img src="images/profile.jpg" alt="Théo Guyard"></p>
+        </div>
       </div>
-      <div class="four columns" style="margin-top: 5%">
-        <img src="images/profile.jpg" alt="headshot" width="90%">
-      </div>
-    </div>
-
-    <h4>About me</h4>
-    <p>
-      I am currently a PhD student at
-      <span name="INRIA"></span>
-      (SIMSMART team) and 
-      <span name="INSA"></span>
-      (Applied Mathematics Department) under the supervision of
-      <span name="CedricHerzet"></span>,
-      <span name="ClementElvira"></span> and
-      <span name="AyseArslan"></span>.
-      I earned an engineering degree (MSc equivalent) specialized in applied mathematics at
-      <span name="INSA"></span> 
-      where I studied various applied mathematics topics such as optimization, machine learning and statistics.
-      I was also involved in a research program to work with academic researchers for two years before obtaining my engineering degree.
-      My main research topics are:
-    </p>
-    <ul style="list-style-type: disc; padding-left: 3%;">
-      <li>Optimization (convex, non-convex, mixed-integer, ...)</li>
-      <li>Sparse problems</li>
-      <li>Machine learning</li>
-      <li>Signal processing</li>
-    </ul>
-    <div class="row">
-      <div class="twelve columns" style="margin-top: 5%; text-align: right;">
-        <small>Credits: This website is forked from <a class="hidelink" href="https://github.com/jeanpauphilet/jeanpauphilet.github.io">here</a>.</small>
-      </div>
-    </div>
-  <script src="constants.js"></script>
+    </section>
+  </main>
+  <footer></footer>
+  <script src="functions.js"></script>
 </body>
 
 </html>
