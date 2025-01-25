@@ -3,16 +3,22 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head></head>
+<head>
+    <script src="js/script.js" defer></script>
+</head>
 
 <body>
-  <header></header>
 
-  <main>
+    <!-- Header -->
+
+    <div data-include="header.html"></div>
+
+    <!-- Main -->
+
     <section>
       <div class="container">
         
-        <h2>Publications</h2>
+        <h3>Publications</h3>
 
         <p>A complete list of publications can be found on my <a href="https://scholar.google.fr/citations?user=xwtKGaEAAAAJ&hl=fr">Google Scholar</a> profile.</p>
 
@@ -24,13 +30,13 @@
             <h5>Journal papers</h5> 
           -->
 
-        <h3>Conference papers</h3>
-        <ol reversed>
+        <h5>Conference papers</h5>
+        <ul>
           <li>
             <b>A new Branch-and-Bound pruning framework for L0-regularized problems</b>
             <br>
-            2024, <i><a href="https://icml.cc">ICML</a></i>,
-            Théo Guyard, <span name="CedricHerzet"></span>, <span name="ClementElvira"></span> and <span name="AyseArslan"></span>
+            2024, <a href="https://icml.cc">ICML</a>,
+            Théo Guyard, <a href='https://cherzet.github.io'>Cédric Herzet</a>, <a href='https://c-elvira.github.io/'>Clément Elvira</a> and <a href='https://aysnrarsln.github.io'>Ayşe-Nur Arslan</a>
             <br>
             <a href="https://arxiv.org/pdf/2406.03504">[Paper]</a>
             <a href="files/citations/guyard2024pruning.html">[Citation]</a>
@@ -39,8 +45,8 @@
           <li>
             <b>Safe peeling for L0-regularized least-squares</b>
             <br>
-            2023, <i><a href="https://ieeexplore.ieee.org/xpl/conhome/1801907/all-proceedings">EUSIPCO</a></i>,
-            Théo Guyard, <span name="GillesMonnoyer"></span>, <span name="CedricHerzet"></span> and <span name="ClementElvira"></span>
+            2023, <a href="https://ieeexplore.ieee.org/xpl/conhome/1801907/all-proceedings">EUSIPCO</a>,
+            Théo Guyard, <a href='https://www.researchgate.net/profile/Gilles-Monnoyer'>Gilles Monnoyer</a>, <a href='https://cherzet.github.io'>Cédric Herzet</a> and <a href='https://c-elvira.github.io/'>Clément Elvira</a>
             <br>
             <a href="https://eurasip.org/Proceedings/Eusipco/Eusipco2023/pdfs/0001748.pdf">[Paper]</a>
             <a href="files/citations/guyard2023peeling.html">[Citation]</a>
@@ -50,10 +56,10 @@
           <li>
             <b>Node-screening tests for L0-penalized least-squares problem</b>
             <br>
-            2022, <i><a href="https://ieeexplore.ieee.org/xpl/conhome/9745891/proceeding">ICASSP</a></i>,
+            2022, <a href="https://ieeexplore.ieee.org/xpl/conhome/9745891/proceeding">ICASSP</a>,
             Théo Guyard,
-            <span name="CedricHerzet"></span> and
-            <span name="ClementElvira"></span>
+            <a href='https://cherzet.github.io'>Cédric Herzet</a> and
+            <a href='https://c-elvira.github.io/'>Clément Elvira</a>
             <br>
             <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747563">[Paper]</a>
             <a href="files/citations/guyard2022node.html">[Citation]</a>
@@ -67,23 +73,23 @@
           <li>
             <b>Screen & Relax: Accelerating the resolution of Elastic-net by safe identification of the solution support</b>
             <br>
-            2022, <i><a href="https://ieeexplore.ieee.org/xpl/conhome/9745891/proceeding">ICASSP</a></i>,
-            Théo Guyard, <span name="CedricHerzet"></span> and <span name="ClementElvira"></span>
+            2022, <a href="https://ieeexplore.ieee.org/xpl/conhome/9745891/proceeding">ICASSP</a>,
+            Théo Guyard, <a href='https://cherzet.github.io'>Cédric Herzet</a> and <a href='https://c-elvira.github.io/'>Clément Elvira</a>
             <br>
             <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747412">[Paper]</a>
             <a href="files/citations/guyard2022screen.html">[Citation]</a>
             <a href="https://gitlab.insa-rennes.fr/Theo.Guyard/screen-and-relax">[Code]</a>
             <a href="https://arxiv.org/pdf/2110.07281.pdf">[Supplement]</a>
           </li>
-        </ol>
+        </ul>
 
-        <h3>Communications in congresses</h3>
-        <ol reversed>
+        <h5>Communications in congresses</h5>
+        <ul>
           <li>
             <b>Peeling pour le problème des moindres carrés avec régularisation L0</b>
             <br>
-            2023, <i><a href="https://gretsi.fr/colloque2023/">GRETSI</a></i>,
-            Théo Guyard, <span name="GillesMonnoyer"></span>, <span name="CedricHerzet"></span> and <span name="ClementElvira"></span>
+            2023, <a href="https://gretsi.fr/colloque2023/">GRETSI</a>,
+            Théo Guyard, <a href='https://www.researchgate.net/profile/Gilles-Monnoyer'>Gilles Monnoyer</a>, <a href='https://cherzet.github.io'>Cédric Herzet</a> and <a href='https://c-elvira.github.io/'>Clément Elvira</a>
             <br>
             <a href="https://gretsi.fr/data/colloque/pdf/2023_guyard1061.pdf">[Paper]</a>
             <a href="files/citations/guyard2023peeling_gretsi.html">[Citation]</a>
@@ -92,7 +98,7 @@
           <li>
             <b>An efficient solver for L0-penalized sparse problems</b>
             <br>
-            2023, <i><a href="https://www.roadef.org">ROADEF</a></i>,
+            2023, <a href="https://www.roadef.org">ROADEF</a>,
             Théo Guyard
             <br>
             <a href="https://roadef2023.sciencesconf.org/434606/document">[Paper]</a>
@@ -102,8 +108,8 @@
           <li>
             <b>Node-screening pour le problème des moindres carrés avec pénalité L0</b>
             <br>
-            2022, <i><a href="http://gretsi.fr">GRETSI</a></i>,
-            Théo Guyard, <span name="CedricHerzet"></span>, <span name="ClementElvira"></span> and <span name="AyseArslan"></span>
+            2022, <a href="http://gretsi.fr">GRETSI</a>,
+            Théo Guyard, <a href='https://cherzet.github.io'>Cédric Herzet</a>, <a href='https://c-elvira.github.io/'>Clément Elvira</a> and <a href='https://aysnrarsln.github.io'>Ayşe-Nur Arslan</a>
             <br>
             <a href="http://gretsi.fr/data/colloque/pdf/2022_guyard740.pdf">[Paper]</a>
             <a href="files/citations/guyard2022node_gretsi.html">[Citation]</a>
@@ -112,24 +118,24 @@
           <li>
             <b>Screen & Relax: Accélérer la résolution du problème "Elastic-Net" par identification du support de la solution</b>
             <br>
-            2022, <i><a href="http://gretsi.fr">GRETSI</a></i>,
-            Theo Guyard,
-            <span name="CedricHerzet"></span> and
-            <span name="ClementElvira"></span>
+            2022, <a href="http://gretsi.fr">GRETSI</a>,
+            Théo Guyard,
+            <a href='https://cherzet.github.io'>Cédric Herzet</a> and
+            <a href='https://c-elvira.github.io/'>Clément Elvira</a>
             <br>
             <a href="http://gretsi.fr/data/colloque/pdf/2022_guyard741.pdf">[Paper]</a>
             <a href="files/citations/guyard2022screen_gretsi.html">[Citation]</a>
             <a href="https://gitlab.insa-rennes.fr/Theo.Guyard/screen-and-relax">[Code]</a>
           </li>
-        </ol>
+        </ul>
 
-        <h3>Miscellaneous</h3>
-        <ol reversed>
+        <h5>Miscellaneous</h5>
+        <ul>
           <!--
             <li>
               <b>Screening methods for sparse linear problems</b>
               <br>
-              2021, <i>Engineering thesis</i>, Theo Guyard
+              2021, <i>Engineering thesis</i>, Théo Guyard
               <br>
               <a href="files/papers/screening2021guyard.pdf">[Paper]</a>
             </li>
@@ -137,17 +143,19 @@
           <li>
             <b>Stochastic models for Kidney Exchange Programs</b>
             <br>
-            2020, <i>Research project thesis</i>, Theo Guyard   
+            2020, Research project thesis, Théo Guyard   
             <br>
             <a href="files/papers/guyard2020stochastic.pdf">[Paper]</a>
             <a href="https://github.com/TheoGuyard/StochasticKEP.jl">[Code]</a>
           </li>
-        </ol>
+        </ul>
       </div>
     </section>
-  </main>
-  <footer></footer>
-  <script src="functions.js"></script>
+
+    <!-- Footer -->
+
+    <div data-include="footer.html"></div>
+    
 </body>
 
 </html>

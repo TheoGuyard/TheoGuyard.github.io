@@ -3,40 +3,72 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head></head>
+<head>
+    <script src="js/script.js" defer></script>
+</head>
 
 <body>
-  <header></header>
 
-  <main>
-    <section id="about">
-      <div class="container">
+    <!-- Header -->
 
-        <h2>About</h2>
-        
-        <div class="about-text">
-          <p>
-            I am currently a <b>PhD student</b> at <span name="INRIA"></span> (Simsmart team) and <span name="INSA"></span> (Applied Mathematics Department) Rennes under the supervision of <span name="CedricHerzet"></span>, <span name="ClementElvira"></span> and <span name="AyseArslan"></span>. I earned an engineering degree (MSc equivalent) specialized in Applied Mathematics and was involved in a research program to work with academic researchers for two years before obtaining my engineering degree. I mainly focus on <b>optimization methods</b> (convex, mixed-integer, ...) related to <b>machine learning</b> and <b>signal processing</b> applications.
-          </p>
-          <br>
-          <i class="fas fa-envelope"></i> theo.guyard.job [at] gmail.com
-          <br>
-          <i class="fa-brands fa-google-scholar"></i> <a href="https://scholar.google.fr/citations?user=xwtKGaEAAAAJ&hl=fr"> Scholar</a>
-          <br>
-          <i class="fa-brands fa-github"></i> <a href="https://github.com/TheoGuyard"> Github</a>
-          <br>
-          <i class="fa-solid fa-book"></i> <a href="https://hal.science/search/index/?q=*&authIdPerson_i=1136132"> Hal</a>
-          <br>
-          <i class="fa-brands fa-orcid"></i> <a href="https://orcid.org/0000-0003-0550-8770"> Orcid</a>
+    <div data-include="header.html"></div>
+
+    <!-- Main -->
+
+    <section>
+        <div class="container">
+
+            <div class="row">
+                <div class="eight columns">
+                    <h3 style="margin-bottom: 1rem;">Théo Guyard</h3>
+                    <h5>Postdoctoral Researcher<br><a href="https://www.polymtl.ca">Polytechnique Montréal</a></h5>
+                    <p>
+                        <i class="fas fa-envelope"></i> <a href="mailto:theo.guyard.job@gmail.com"> Mail</a>
+                        |
+                        <i class="fa-brands fa-google-scholar"></i> <a href="https://scholar.google.fr/citations?user=xwtKGaEAAAAJ&hl=fr"> Scholar</a>
+                        |
+                        <i class="fa-brands fa-github"></i> <a href="https://github.com/TheoGuyard"> Github</a>
+                        <!--
+                        |
+                        <i class="fa-brands fa-orcid"></i> <a href="https://orcid.org/0000-0003-0550-8770"> Orcid</a>
+                        -->
+                    </p>
+                </div>
+                <div class="four columns">
+                    <img src="images/profile.jpg" alt="Théo Guyard" style="width: 100%;">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="twelve columns">
+                    <h3>About me</h3>
+                    I am a Postdoctoral Researcher at <a href="https://www.polymtl.ca">Polytechnique Montréal</a> affiliated to the <a href="https://www.scaleai.ca/education/research-chair-program/">Scale-AI chair</a> held by <a href="https://w1.cirrelt.ca/~vidalt/en/publications-thibaut-vidal.html">Thibaut Vidal</a>.
+                    Prior to that, I received a PhD in Applied Mathematics at <a href='https://www.inria.fr/fr'>INRIA Rennes</a> under the supervision of <a href='https://cherzet.github.io'>Cédric Herzet</a>, <a href='https://c-elvira.github.io/'>Clément Elvira</a> and <a href='https://aysnrarsln.github.io'>Ayşe-Nur Arslan</a>.
+                    Before, I earned an Engineering Degree (MSc equivalent) specialized in Applied Mathematics from <a href='https://www.groupe-insa.fr'>INSA Rennes</a> where I also followed a research program to work with academic researchers for two years before graduating.
+                    Feel free to check my <a href="resume.html">resume</a> for more details.
+                </div>
+            </div>
+
+            <br>
+            
+            <div class="row">
+                <div class="twelve columns">
+                    <h3>Research interests</h3>
+                    My works mainly focus on <b>mathematical optimization</b> with both convex and mixed-integer problems related to various applications, including machine learning and signal processing.
+                    I was particularity interested in sparse optimization problems involving the <b>L0-norm</b> during my PhD.
+                    For my postdoctoral position, I am working on building <b>decision trees</b> to solve any instance of a given Mixed-Integer Linear Programs in polynomial time.
+                    Feel free to check my <a href="publications.html">publications</a> for more details.
+                </div>
+            </div>
+
+            <br>
         </div>
-        <div class="about-image">
-          <p><img src="images/profile.jpg" alt="Théo Guyard"></p>
-        </div>
-      </div>
     </section>
-  </main>
-  <footer></footer>
-  <script src="functions.js"></script>
+
+    <!-- Footer -->
+
+    <div data-include="footer.html"></div>
+    
 </body>
 
 </html>
