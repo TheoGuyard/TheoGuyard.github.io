@@ -1,128 +1,197 @@
 <!DOCTYPE html>
-<html lang="en">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Théo Guyard</title>
 
-<head>
-    <script src="js/script.js" defer></script>
-</head>
+    <!-- Tailwind CSS with dark mode toggle -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: '#6366f1',
+            },
+          },
+        }
+      };
+    </script>
 
-<body>
+    <!-- Parse csv files -->
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  </head>
 
+  <body class="min-h-screen flex flex-col bg-white text-gray-900 dark:bg-gray-900 dark:text-white font-sans transition-colors duration-500">
+    
     <!-- Header -->
-
-    <div data-include="header.html"></div>
+    <div id="header-placeholder"></div>
 
     <!-- Main -->
+    <main class="flex-grow">
 
-    <section>
-      <div class="container">
-        
-        <h3>Resume</h3>
-        
-        <p>A pdf version of my <a href="https://github.com/TheoGuyard/cv/raw/main/aux/main.pdf"><i class="fa-solid fa-file-pdf"></i> Curriculum</a> is also available.</p>
-        
-        <h5>Positions and Education</h5>
-        <ul class="no-bullets">
-          <li>
-            <b>2025 - 2026 | Postdoctoral researcher at <a href="https://www.polymtl.ca">Polytechnique Montréal</a>, Canada</b>
-            <br>
-            Optimal decision trees for mixed-integer linear programs.
-            <br>
-            Supervized by <a href='https://w1.cirrelt.ca/~vidalt/en/home-thibaut-vidal.html'>Thibaut Vidal</a> within the <a href="https://www.scaleai.ca/education/research-chair-program/">Scale-AI chair</a>.
-          </li>
-          <li>
-            <b>2021 - 2024 | PhD student at <a href='https://www.inria.fr/fr'>INRIA</a> (Simsmart) and <a href='https://www.groupe-insa.fr'>INSA Rennes</a> (Maths Department), France</b>
-            <br>
-            Branch-and-Bound algorithms for L0-regularized problems.
-            <br>
-            Supervized by <a href='https://cherzet.github.io'>Cédric Herzet</a>, <a href='https://c-elvira.github.io/'>Clément Elvira</a> and <a href='https://aysnrarsln.github.io'>Ayşe-Nur Arslan</a>.
-          </li>
-          <li data-type="method robust">
-            <b>2020 - 2021 | Research program student at <a href="https://irmar.univ-rennes.fr">IRMAR</a>, France</b>
-            <br>
-            Bilevel mixed-integer programs for kidney exchange programs.
-            <br>
-            Supervized by <a href='https://jeremyomer.wixsite.com/recherche'>Jérémy Omer</a> and <a href='https://aysnrarsln.github.io'>Ayşe-Nur Arslan</a>.
-          </li>
-          <li>
-            <b>2019 - 2020 | Research program student at <a href='https://www.inria.fr/fr'>INRIA</a>, France</b>
-            <br>
-            Screening methods for L1-regularized sparse problems.
-            <br>
-            Supervized by <a href='https://cherzet.github.io'>Cédric Herzet</a> and <a href='https://c-elvira.github.io/'>Clément Elvira</a>.
-          </li>
-          <li>
-            <b>2016 - 2021 | Engineering Student at <a href='https://www.groupe-insa.fr'>INSA Rennes</a></b>
-            <br>
-            Specialization in Applied Mathematics
-          </li>
-        </ul>
+      <section id="resume" class="py-10 px-6 max-w-3xl mx-auto text-justify">
 
-        <br>
+        <h3 class="text-2xl font-bold mb-6">Resume</h3>
+        <p class="text-xs">
+          <a class="hover:text-primary" href="https://github.com/TheoGuyard/cv/raw/main/aux/main.pdf">[pdf version]</a>
+        </p>
 
-        <h5>Diplomas</h5>
-        <ul class="no-bullets">
-          <li>
-            <b>2025, MCF Qualification - <a href='https://conseil-national-des-universites.fr/cnu'>CNU Section 61 (Signal Processing)</a></b>
-          </li>
-          <li>
-            <b>2025, MCF Qualification - <a href='https://conseil-national-des-universites.fr/cnu'>CNU Section 26 (Applied Mathematics)</a></b>
-          </li>
-          <li>
-            <b>2024, PhD in Applied Mathematics from <a href='https://www.groupe-insa.fr'>INSA Rennes</a></b>
-          </li>
-          <li>
-            <b>2021, Engineering degree in Applied Mathematics from <a href='https://www.groupe-insa.fr'>INSA Rennes</a> (MSc equivalent)</b>
-          </li>
-        </ul>
+        <div class="py-5">
+          <h3 class="text-large font-semibold mb-2">Education and Positions</h3>
+          <ul id="pos-list" class="space-y-2 text-sm leading-snug"></ul>
+        </div>
 
-        <br>
+        <script>
+          fetch('data/positions.csv')
+            .then(res => res.text())
+            .then(csv => {
+              Papa.parse(csv, {
+                header: true,
+                complete: function(results) {
+                  const list = document.getElementById('pos-list');
+                  results.data.forEach(pos => {
+                    const li = document.createElement('li');
+                    li.className = 'bg-white dark:bg-gray-800 p-2 rounded-lg shadow hover:shadow-md transition';
+                    li.innerHTML = `
+                      <p class="text-xs font-semibold text-gray-700 dark:text-gray-300">
+                        ${pos.dates} • ${pos.position}
+                      </p>
+                      <p class="text-gray-500 dark:text-gray-400 text-xs">
+                        ${pos.institution}
+                      </p>
+                      <p class="text-xs text-gray-700 dark:text-gray-300">
+                        ${pos.topic ? `${pos.topic}` : ''}
+                        <br>
+                        ${pos.supervision ? `${pos.supervision}` : ''}
+                      </p>
+                    `;
+                    list.appendChild(li);
+                  });
+                }
+              });
+            });
+        </script>
 
-        <h5>Research awards and grants</h5>
-        <ul class="no-bullets">
-          <li>
-            <b>2025, <a href="https://ivado.ca">IVADO</a> research grant recipient with <a href="https://w1.cirrelt.ca/~vidalt">Thibaut Vidal</a></b>
-            <br>
-            This grant aims at supporting research to integrate and improve modern optimization and machine learning methods to improve the efficiency and resilience of supply chains and mobility systems, while reducing their environmental footprint.
-            Referees: Emma Frejinger, Erick Delage, Jean-François Cordeau, Yossiri Adulyasak.
-          </li>
-          <li>
-            <b>2023, <a href="http://roadef.org">ROADEF</a>, Best Student Paper Award</b>
-            <br>
-            This prize is awarded at the ROADEF annual congress and rewards a doctoral student for an original academic or industrial contribution. The evaluation covers both the content of the paper and the oral during the congress.
-            Referees: Come Bissuel, Julien Darlay, Alexandre Gondran, Nacima Labadie, Amélie Lambert, Sébastien Martin, Dimitri Watel, Sandra Ngueveu and Odile Bellenguez.
-          </li>
-          <li>
-            <b>2022, <a href="http://smai.emath.fr/spip.php?article330&lang=fr">SMAI-MODE</a>, Best Poster Award</b>
-            <br>
-            This prize is awarded by the SMAI-MODE group and rewards the best poster during the SMAI-MODE days.
-            Referees: Jean-Bernard Lasserre, Noureddine Igbida, Thibault Liard, Simone Naldi and Olivier Prot.
-          </li>
-        </ul>
+        <div class="py-5">
+          <h3 class="text-large font-semibold mb-2">Research Awards and Grants</h3>
+          <ul id="award-list" class="space-y-2 text-sm leading-snug"></ul>
+        </div>
 
-        <br>
+        <script>
+          fetch('data/awards.csv')
+            .then(res => res.text())
+            .then(csv => {
+              Papa.parse(csv, {
+                header: true,
+                complete: function(results) {
+                  const list = document.getElementById('award-list');
+                  results.data.forEach(award => {
+                    const li = document.createElement('li');
+                    li.className = 'bg-white dark:bg-gray-800 p-2 rounded-lg shadow hover:shadow-md transition';
+                    li.innerHTML = `
+                      <p class="text-xs font-semibold text-gray-700 dark:text-gray-300">
+                        ${award.date} • ${award.title}
+                      </p>
+                      <p class="text-xs text-gray-700 dark:text-gray-300">
+                        ${award.description ? `${award.description}` : ''}
+                      </p>
+                    `;
+                    list.appendChild(li);
+                  });
+                }
+              });
+            });
+        </script>
 
-        <h5>Scientific Duties</h5>
-        <ul class="no-bullets">
-          <li>
-            <b>Program Chair for:</b>
-            <a href="https://ecai2025.org">ECAI 2025</a>.
-          </li>
-          <li>
-            <b>Journal reviewer for:</b>
-            <a href="https://link.springer.com/journal/10957">JOTA</a>,
-            <a href="https://signalprocessingsociety.org/publications-resources/ieee-signal-processing-letters">IEEE Signal Processing Letters</a>.
-          </li>
-        </ul>
-      </div>
-    </section>
+        <div class="py-5">
+          <h3 class="text-large font-semibold mb-2">Degrees</h3>
+          <ul id="degrees-list" class="space-y-1 text-sm leading-snug"></ul>
+        </div>
+
+        <script>
+          fetch('data/degrees.csv')
+            .then(res => res.text())
+            .then(csv => {
+              Papa.parse(csv, {
+                header: true,
+                complete: function(results) {
+                  const list = document.getElementById('degrees-list');
+                  results.data.forEach(degree => {
+                    const li = document.createElement('li');
+                    li.className = 'bg-white dark:bg-gray-800 p-2 rounded-lg shadow hover:shadow-md transition';
+                    li.innerHTML = `
+                      <p class="text-xs font-semibold text-gray-700 dark:text-gray-300">
+                        ${degree.date} • ${degree.title}
+                      </p>
+                    `;
+                    list.appendChild(li);
+                  });
+                }
+              });
+            });
+        </script>
+
+        <div class="py-5">
+          <h3 class="text-large font-semibold mb-2">Scientific Duties</h3>
+          <ul id="duties-list" class="space-y-1 text-sm leading-snug"></ul>
+        </div>
+
+        <script>
+          fetch('data/duties.csv')
+            .then(res => res.text())
+            .then(csv => {
+              Papa.parse(csv, {
+                header: true,
+                complete: function(results) {
+                  const list = document.getElementById('duties-list');
+                  results.data.forEach(duty => {
+                    const li = document.createElement('li');
+                    li.className = 'bg-white dark:bg-gray-800 p-2 rounded-lg shadow hover:shadow-md transition';
+                    li.innerHTML = `
+                      <span class="text-xs font-semibold text-gray-700 dark:text-gray-300">
+                        ${duty.type}
+                      </span>
+                      <span class="text-xs text-gray-700 dark:text-gray-300">
+                        ${duty.elements}
+                      </span>
+                    `;
+                    list.appendChild(li);
+                  });
+                }
+              });
+            });
+        </script>
+
+      </section>
+
+    </main>
 
     <!-- Footer -->
+    <div id="footer-placeholder"></div>
 
-    <div data-include="footer.html"></div>
-    
-</body>
-
+    <!-- Theme toggle and header/footer loader-->
+    <script>
+    if (localStorage.getItem('theme') === 'dark') {
+      document.documentElement.classList.add('dark');
+    }
+    async function loadPartial(id, file, callback) {
+      const res = await fetch(file);
+      const html = await res.text();
+      document.getElementById(id).innerHTML = html;
+      if (callback) callback();
+    }
+    loadPartial("header-placeholder", "header.html", () => {
+      const toggle = document.getElementById('theme-toggle');
+      const html = document.documentElement;
+      toggle?.addEventListener('click', () => {
+        html.classList.toggle('dark');
+        localStorage.setItem('theme', html.classList.contains('dark') ? 'dark' : 'light');
+      });
+    });
+    loadPartial("footer-placeholder", "footer.html");
+    </script>
+  </body>
 </html>
-

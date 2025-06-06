@@ -1,0 +1,28 @@
+year,month,day,event,place,country,title,slides
+2025,5,12,JOPT,Montréal,Canada,Branch-and-Bound Algorithms for L0-norm Problems,https://github.com/TheoGuyard/slides_2025-05-12_JOPT/raw/main/aux/main.pdf
+2025,3,26,CIRRELT lecture group,Montréal,Canada,Optimization methods with logical constraints,
+2025,3,6,CIRRELT seminar,Montréal,Canada,Optimization methods for L0-regularized problems,https://github.com/TheoGuyard/slides_2025-03-06_CIRRELT/raw/main/aux/main.pdf
+2024,12,9,IMAG team seminar,Montpellier,France,Solving L0-norm problems via mixed-integer optimization,https://github.com/TheoGuyard/slides_2024-12-09_ML-MTP_L0-problems/raw/main/aux/main.pdf
+2024,11,27,PhD Defense,Rennes,France,Branch-and-Bound algorithms for L0-regularized problems,https://github.com/TheoGuyard/slides_2024-11-27_Phd-defense/raw/main/aux/main.pdf
+2024,9,16,GdR IASIS Workshop,Institut Henri Poincaré,France,Toward stronger relaxations for L0-regularized problems,https://github.com/TheoGuyard/slides_2024-09-16_GdR-IASIS_L0-relaxations/raw/main/aux/main.pdf
+2024,7,24,ICML,Vienna,Austria,A new Branch-and-Bound pruning framework for L0-regularized problems,https://github.com/TheoGuyard/poster_2024-07-24_ICML_Node-screening/raw/main/main.pdf
+2024,3,28,SMAI-MODE days,Lyon,France,A generic Branch-and-Bound for L0-penalized problems,https://github.com/TheoGuyard/poster_2024-03-28_SMAI-MODE_Branch-and-bound/raw/main/aux/main.pdf
+2024,3,28,SMAI-MODE days,Lyon,France,Screen-and-Relax for sparse support identification,https://github.com/TheoGuyard/slides_2024-03-28_SMAI-MODE_Screen-and-relax/raw/main/aux/main.pdf
+2024,3,18,Journées Doctorants en Statistiques,Rennes,France,Discrete optimization methods for L0-norm problems,https://github.com/TheoGuyard/slides_2024-03-18_JDRS_L0-problems/raw/main/aux/main.pdf
+2024,3,7,LS2N seminar,Nantes,France,Mixed-integer optimization methods for sparse problems,https://github.com/TheoGuyard/slides_2024-03-07_LS2N_L0-problems/raw/main/aux/main.pdf
+2023,11,29,PGMO days,Paris-Saclay,France,Screen & Relax for sparse support identification,https://github.com/TheoGuyard/slides_2023-11-29_PGMO_Screen-and-relax/raw/main/aux/main.pdf
+2023,11,29,PGMO days,Paris-Saclay,France,Safe peeling for L0-penalized problems,https://github.com/TheoGuyard/slides_2023-11-23_PGMO_Peeling/raw/main/aux/main.pdf
+2023,10,19,Inria EDGE team seminar,Bordeaux,France,Solving L0-norm problems via mixed-integer optimization,https://github.com/TheoGuyard/slides_2023-10-19_OptimAI_L0-problems/raw/main/aux/main.pdf
+2023,10,10,Inria SODA and MIND team seminar,Paris-Saclay,France,Solving L0-norm problems via mixed-integer optimization,https://github.com/TheoGuyard/slides_2023-10-03_SODA-MIND_L0-problems/raw/main/aux/main.pdf
+2023,9,9,EUSIPCO,Helsinki,Finland,Peeling for L0-regularized least-squares,https://github.com/TheoGuyard/slides_2023-09-04_EUSIPCO_Peeling/raw/main/aux/eusipco.pdf
+2023,8,30,GRETSI,Grenoble,France,Peeling for L0-regularized least-squares,https://github.com/TheoGuyard/slides_2023-08-30_GRETSI_Peeling/raw/main/aux/main.pdf
+2023,5,2,SIAM Conference on Optimization,Seattle,USA,Unifying Branch-and-Bound approaches to solve L0-penalized problems,https://github.com/TheoGuyard/slides_2023-05-02_SIOP_L0-problems/raw/main/aux/siop.pdf
+2023,2,21,ROADEF,Rennes,France,An efficient solver for L0-penalized sparse problems,https://github.com/TheoGuyard/slides_2023-02-21_ROADEF_L0-problems/raw/main/aux/roadef.pdf
+2023,2,17,IRMAR Science and Ethic seminar,Rennes,France,The latest report from the CNRS ethics committee: Integrating environmental issues into the conduct of research,
+2022,11,30,PGMO days,Paris-Saclay,France,Discrete optimization methods for L0-penalized sparse problems,https://github.com/TheoGuyard/slides_2022-11-30_PGMO_L0-problems/raw/main/aux/slides.pdf
+2022,9,30,IRMAR Science and Ethic seminar,Rennes,France,Resilience in signal processing and AI,
+2022,9,8,GRETSI,Nancy,France,Node-screening pour le problème des moindres carrés avec pénalité L0,https://github.com/TheoGuyard/slides_2022-09-08_GRETSI_Node-screening/raw/main/aux/main.pdf
+2022,9,8,GRETSI,Nancy,France,Accélérer la résolution de l’Elastic-Net par identification du support de la solution,https://github.com/TheoGuyard/slides_2022-09-08_GRETSI_Screen-and-relax/raw/main/aux/slides.pdf
+2022,6,1,SMAI-MODE days,Limoges,France,Node-screening tests for the L0-penalized least-squares problem,https://github.com/TheoGuyard/poster_2022-06-01_SMAI-MODE_Node-screening/raw/main/aux/main.pdf
+2022,5,8,ICASSP,Remote,Singapore,Node-screening tests for the L0-penalized least-squares problem,https://github.com/TheoGuyard/poster_2022-05-08_ICASSP_Node-screening/raw/main/aux/main.pdf
+2022,5,8,ICASSP,Remote,Singapore,Screen & Relax: Accelerating the resolution of Elastic-Net by safe identification of the solution support,https://github.com/TheoGuyard/poster_2022-05-08_ICASSP_Screen-and-relax/raw/main/aux/main.pdf

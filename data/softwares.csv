@@ -1,0 +1,5 @@
+name,language,description,github,pipy,juliapkgs
+exprun,Python,"Automatized pipelines for reproducible experiments.",https://github.com/TheoGuyard/ExpRun,https://pypi.org/project/exprun/,
+el0ps,Python,Toolbox to solve L0-regularized problems.,https://github.com/TheoGuyard/El0ps,https://pypi.org/project/el0ps/,
+libsvmdata,Julia,Simple tool to fetch LIBSVM datasets to Julia.,https://github.com/TheoGuyard/LIBSVMdata.jl,,https://juliapackages.com/p/libsvmdata
+stochastickep,Julia,Kidney Exchange Programs as stochastic optimization problems.,https://github.com/TheoGuyard/StochasticKEP.jl,,

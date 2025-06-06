@@ -1,72 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Théo Guyard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: '#6366f1',
+            },
+          },
+        }
+      };
+    </script>
+  </head>
+  <body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-white font-sans transition-colors duration-500">
+    
+    <!-- At the top of <body> -->
+    <div id="header-placeholder"></div>
 
-<head>
-    <script src="js/script.js" defer></script>
-</head>
+    <!-- Hero Section -->
+    <section class="text-center pt-24 pb-12 px-4 relative">
+      <h2 class="text-5xl font-extrabold mb-6 tracking-tight">Théo Guyard</h2>
+      <p class="text-xl max-w-2xl mx-auto">
+        Postdoctoral Researcher in Optimization and Machine Learning at Polytechnique Montreal, Canada
+      </p>
+      <p class="mt-2 text-sm max-w-2xl mx-auto">
+          Useful links •
+          <a href="mailto:theo.guyard.job@gmail.com" class="hover:text-primary" aria-label="Email">
+              [mail]
+          </a>
+          <a href="https://scholar.google.fr/citations?user=xwtKGaEAAAAJ&hl=fr" class="hover:text-primary" aria-label="Google Scholar">
+              [scholar]
+          </a>
+          <a href="https://github.com/TheoGuyard" class="hover:text-primary" aria-label="GitHub">
+              [github]
+          </a>
+      </p>
+      <div id="blurry-circle" class="absolute top-0 left-1/2 transform -translate-x-1/2 z-[-1] blur-2xl opacity-50 w-80 h-80 rounded-full bg-gradient-to-tr from-indigo-500 via-purple-500 to-orange-500"></div>
+    </section>
 
-<body>
-
-    <!-- Header -->
-
-    <div data-include="header.html"></div>
-
-    <!-- Main -->
-
-    <section>
-        <div class="container">
-
-            <div class="row">
-                <div class="eight columns">
-                    <h3 style="margin-bottom: 1rem;">Théo Guyard</h3>
-                    <h5>Postdoctoral Researcher<br><a href="https://www.polymtl.ca">Polytechnique Montréal</a></h5>
-                    <p>
-                        <i class="fas fa-envelope"></i> <a href="mailto:theo.guyard.job@gmail.com"> Mail</a>
-                        |
-                        <i class="fa-brands fa-google-scholar"></i> <a href="https://scholar.google.fr/citations?user=xwtKGaEAAAAJ&hl=fr"> Scholar</a>
-                        |
-                        <i class="fa-brands fa-github"></i> <a href="https://github.com/TheoGuyard"> Github</a>
-                        <!--
-                        |
-                        <i class="fa-brands fa-orcid"></i> <a href="https://orcid.org/0000-0003-0550-8770"> Orcid</a>
-                        -->
-                    </p>
-                </div>
-                <div class="four columns">
-                    <img src="images/profile.jpg" alt="Théo Guyard" style="width: 100%;">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="twelve columns">
-                    <h3>About me</h3>
-                    I am a Postdoctoral Researcher at <a href="https://www.polymtl.ca">Polytechnique Montréal</a> affiliated to the <a href="https://www.scaleai.ca">Scale-AI chair</a> held by <a href="https://w1.cirrelt.ca/~vidalt">Thibaut Vidal</a>.
-                    Prior to that, I received a PhD in Applied Mathematics at <a href='https://www.inria.fr/fr'>INRIA Rennes</a> under the supervision of <a href='https://cherzet.github.io'>Cédric Herzet</a>, <a href='https://c-elvira.github.io/'>Clément Elvira</a> and <a href='https://aysnrarsln.github.io'>Ayşe-Nur Arslan</a>.
-                    Before, I earned an Engineering Degree (MSc equivalent) specialized in Applied Mathematics from <a href='https://www.groupe-insa.fr'>INSA Rennes</a> where I also followed a research program to work with academic researchers for two years before graduating.
-                    Feel free to check my <a href="resume.html">resume</a> for more details.
-                </div>
-            </div>
-
-            <br>
-            
-            <div class="row">
-                <div class="twelve columns">
-                    <h3>Research interests</h3>
-                    My works mainly focus on <b>mathematical optimization</b> with both convex and mixed-integer problems related to various applications, including machine learning and signal processing.
-                    I was particularity interested in sparse optimization problems involving the <b>L0-norm</b> during my PhD.
-                    For my postdoctoral position, I am working on building <b>decision trees</b> to solve any instance of a given Mixed-Integer Linear Programs in polynomial time.
-                    Feel free to check my <a href="publications.html">publications</a> for more details.
-                </div>
-            </div>
-        </div>
+    <!-- About Section -->
+    <section class="py-10 px-6 max-w-3xl mx-auto text-justify">
+      <div class="py-5">
+        <h3 class="text-2xl font-bold mb-4">About</h3>
+        <p class="leading-relaxed">
+          I am a Postdoctoral Researcher at Polytechnique Montréal affiliated to the Scale-AI chair held by Thibaut Vidal. Prior to that, I received a PhD in Applied Mathematics at INRIA Rennes under the supervision of Cédric Herzet, Clément Elvira and Ayşe-Nur Arslan. I earned an Engineering Degree (MSc equivalent) specialized in Applied Mathematics from INSA Rennes where I also followed a research program to work with academic researchers for two years before graduating.
+        </p>
+      </div>
+      <div class="py-5">
+        <h3 class="text-2xl font-bold mb-4">Research interests</h3>
+        <p class="leading-relaxed">
+          My works mainly focus on mathematical optimization with both convex and mixed-integer problems related to various applications, including machine learning and signal processing. I was particularity interested in sparse optimization problems involving the L0-norm during my PhD. For my postdoctoral position, I am working on building decision trees to solve instances of mixed-integer programs in polynomial time.
+        </p>
+      </div>
     </section>
 
     <!-- Footer -->
+    <div id="footer-placeholder"></div>
 
-    <div data-include="footer.html"></div>
-    
-</body>
+    <!-- Theme toggle and header/footer loader-->
+    <script>
+      if (localStorage.getItem('theme') === 'dark') {
+        document.documentElement.classList.add('dark');
+      }
+      async function loadPartial(id, file, callback) {
+        const res = await fetch(file);
+        const html = await res.text();
+        document.getElementById(id).innerHTML = html;
+        if (callback) callback();
+      }
+      loadPartial("header-placeholder", "header.html", () => {
+        const toggle = document.getElementById('theme-toggle');
+        const html = document.documentElement;
+        toggle?.addEventListener('click', () => {
+          html.classList.toggle('dark');
+          localStorage.setItem('theme', html.classList.contains('dark') ? 'dark' : 'light');
+        });
+      });
+      loadPartial("footer-placeholder", "footer.html");
+    </script>
 
+    <!-- Color gradient -->
+    <script>
+      function hslToTailwind(h, s, l) {
+        h = h % 360;
+        s = s / 100;
+        l = l / 100;
+        const c = (1 - Math.abs(2 * l - 1)) * s;
+        const x = c * (1 - Math.abs((h / 60) % 2 - 1));
+        const m = l - c / 2;
+        let [r, g, b] = [0, 0, 0];
+        if (h < 60) [r, g, b] = [c, x, 0];
+        else if (h < 120) [r, g, b] = [x, c, 0];
+        else if (h < 180) [r, g, b] = [0, c, x];
+        else if (h < 240) [r, g, b] = [0, x, c];
+        else if (h < 300) [r, g, b] = [x, 0, c];
+        else [r, g, b] = [c, 0, x];
+        const to255 = v => Math.round((v + m) * 255);
+        return `rgb(${to255(r)}, ${to255(g)}, ${to255(b)})`;
+      }
+      window.addEventListener('DOMContentLoaded', () => {
+        const baseHue = Math.floor(Math.random() * 360);
+        const h1 = baseHue;
+        const h2 = (baseHue + 30) % 360;
+        const h3 = (baseHue + 60) % 360;
+        const s = 70;
+        const l = 60;
+        const color1 = hslToTailwind(h1, s, l);
+        const color2 = hslToTailwind(h2, s, l);
+        const color3 = hslToTailwind(h3, s, l);
+        const circle = document.getElementById('blurry-circle');
+        circle.className = "absolute top-0 left-1/2 transform -translate-x-1/2 z-[-1] blur-2xl opacity-50 w-80 h-80 rounded-full";
+        circle.style.backgroundImage = `linear-gradient(to top right, ${color1}, ${color2}, ${color3})`;
+      });
+    </script>
+  </body>
 </html>

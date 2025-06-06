@@ -1,25 +1,30 @@
-<header>
-  <div class="container">
-      <nav>
-        <div class="nav-header">Théo Guyard</div>
-        <input type="checkbox" id="nav-check">
-        <div class="nav-header">
-        </div>
-        <div class="nav-btn">
-          <label for="nav-check">
-            <span></span>
-            <span></span>
-            <span></span>
-          </label>
-        </div>
-        <div class="nav-links">
-          <a href="index.html">About</a>
-          <a href="resume.html">Resume</a>
-          <a href="publications.html">Publications</a>
-          <a href="talks.html">Talks</a>
-          <a href="teaching.html">Teaching</a>
-          <a href="softwares.html">Softwares</a>
-        </div>
+<header class="px-4 sm:px-6 lg:px-8">
+  <div class="max-w-7xl mx-auto py-4 flex flex-wrap items-center gap-y-4">
+    
+    <!-- Site title -->
+    <div class="flex-1">
+      <a href="index.html" class="text-lg sm:text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+        Théo Guyard
+      </a>
+    </div>
+    
+
+    <!-- Navbar -->
+    <div class="flex-1 flex flex-wrap justify-end gap-4 items-center">
+      <nav class="flex flex-wrap justify-end gap-4 text-sm sm:text-base text-gray-600 dark:text-gray-300">
+        <a href="index.html" class="hover:text-black dark:hover:text-white transition">Home</a>
+        <a href="resume.html" class="hover:text-black dark:hover:text-white transition">Resume</a>
+        <a href="publications.html" class="hover:text-black dark:hover:text-white transition">Publications</a>
+        <a href="presentations.html" class="hover:text-black dark:hover:text-white transition">Presentations</a>
+        <a href="softwares.html" class="hover:text-black dark:hover:text-white transition">Softwares</a>
+        <a href="teaching.html" class="hover:text-black dark:hover:text-white transition">Teaching</a>
       </nav>
+
+      <!-- Theme toggle -->
+      <button id="theme-toggle" class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition text-sm whitespace-nowrap">
+        ☾
+      </button>
+    </div>
+
   </div>
 </header>

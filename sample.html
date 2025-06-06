@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Théo Guyard</title>
+
+    <!-- Tailwind CSS with dark mode toggle -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -17,8 +19,11 @@
         }
       };
     </script>
+
+    <!-- Parse csv files -->
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
   </head>
+
   <body class="min-h-screen flex flex-col bg-white text-gray-900 dark:bg-gray-900 dark:text-white font-sans transition-colors duration-500">
     
     <!-- Header -->
@@ -26,44 +31,12 @@
 
     <!-- Main -->
     <main class="flex-grow">
+
       <section id="publications" class="py-10 px-6 max-w-3xl mx-auto text-justify">
-        <h3 class="text-2xl font-bold mb-6">Publications</h3>
-        <ul id="pub-list" class="space-y-2 text-sm leading-snug"></ul>
+        <h3 class="text-2xl font-bold mb-6">Sample</h3>
+        Blabla
       </section>
-      <script>
-        fetch('data/publications.csv')
-          .then(res => res.text())
-          .then(csv => {
-            Papa.parse(csv, {
-              header: true,
-              complete: function(results) {
-                const list = document.getElementById('pub-list');
-                results.data.forEach(pub => {
-                  const li = document.createElement('li');
-                  li.className = 'bg-white dark:bg-gray-800 p-2 rounded-lg shadow hover:shadow-md transition';
-                  li.innerHTML = `
-                    <div>
-                      <p class="text-gray-500 dark:text-gray-400 text-xs">
-                        ${pub.year} • ${pub.venue}
-                      </p>
-                      <p class="font-semibold text-xs">
-                        ${pub.title}
-                      </p>
-                    </div>
-                    <p class="text-xs text-gray-700 dark:text-gray-300">${pub.authors}</p>
-                    <p class="text-xs">
-                      ${pub.paper ? `<a href="${pub.paper}" class="hover:text-primary">[paper]</a>` : '[paper to appear]'}
-                      ${pub.supplements ? `<a href="${pub.supplements}" class="hover:text-primary">[supplements]</a>` : ''}
-                      ${pub.summary ? `<a href="${pub.summary}" class="hover:text-primary">[summary]</a>` : ''}
-                      ${pub.code ? `<a href="${pub.code}" class="hover:text-primary">[code]</a>` : ''}
-                    </p>
-                  `;
-                  list.appendChild(li);
-                });
-              }
-            });
-          });
-      </script>
+
     </main>
 
     <!-- Footer -->
