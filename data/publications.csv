@@ -1,5 +1,5 @@
 year,venue,title,authors,paper,supplements,code,summary
-2025,Preprint,El0ps: An exact L0-regularized problem solver,"Théo Guyard, Cédric Herzet, Clément Elvira",,,https://github.com/TheoGuyard/El0ps,
+2025,Preprint,El0ps: An exact L0-regularized problem solver,"Théo Guyard, Cédric Herzet, Clément Elvira",https://arxiv.org/pdf/2506.06373,,https://github.com/TheoGuyard/El0ps,
 2025,Preprint,A generic branch-and-bound algorithm for L0-regularized problems,"Clément Elvira, Théo Guyard, Cédric Herzet",https://arxiv.org/pdf/2506.03974,,https://github.com/TheoGuyard/El0ps,
 2024,PhD thesis,Branch-and-bound algorithms for L0-regularized problems,"Théo Guyard",https://hal.science/tel-04926869v1/document,,https://github.com/TheoGuyard/El0ps,https://github.com/TheoGuyard/paper_2025_Phd-summary/raw/main/aux/main.pdf
 2024,ICML (International Conference on Machine Learning),A new branch-and-bound pruning framework for L0-regularized problems,"Théo Guyard, Cédric Herzet, Clément Elvira, Ayşe-Nur Arslan",https://openreview.net/pdf?id=xPmSNLle1w,,https://github.com/TheoGuyard/El0ps,
