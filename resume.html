@@ -76,7 +76,35 @@
         </script>
 
         <div class="py-5">
-          <h3 class="text-large font-semibold mb-2">Research Awards and Grants</h3>
+          <h3 class="text-large font-semibold mb-2">Degrees</h3>
+          <ul id="degrees-list" class="space-y-1 text-sm leading-snug"></ul>
+        </div>
+
+        <script>
+          fetch('data/degrees.csv')
+            .then(res => res.text())
+            .then(csv => {
+              Papa.parse(csv, {
+                header: true,
+                complete: function(results) {
+                  const list = document.getElementById('degrees-list');
+                  results.data.forEach(degree => {
+                    const li = document.createElement('li');
+                    li.className = 'bg-white dark:bg-gray-800 p-2 rounded-lg shadow hover:shadow-md transition';
+                    li.innerHTML = `
+                      <p class="text-xs font-semibold text-gray-700 dark:text-gray-300">
+                        ${degree.date} • ${degree.title}
+                      </p>
+                    `;
+                    list.appendChild(li);
+                  });
+                }
+              });
+            });
+        </script>
+
+        <div class="py-5">
+          <h3 class="text-large font-semibold mb-2">Awards</h3>
           <ul id="award-list" class="space-y-2 text-sm leading-snug"></ul>
         </div>
 
@@ -107,24 +135,27 @@
         </script>
 
         <div class="py-5">
-          <h3 class="text-large font-semibold mb-2">Degrees</h3>
-          <ul id="degrees-list" class="space-y-1 text-sm leading-snug"></ul>
+          <h3 class="text-large font-semibold mb-2">Grants</h3>
+          <ul id="grants-list" class="space-y-2 text-sm leading-snug"></ul>
         </div>
 
         <script>
-          fetch('data/degrees.csv')
+          fetch('data/grants.csv')
             .then(res => res.text())
             .then(csv => {
               Papa.parse(csv, {
                 header: true,
                 complete: function(results) {
-                  const list = document.getElementById('degrees-list');
-                  results.data.forEach(degree => {
+                  const list = document.getElementById('grants-list');
+                  results.data.forEach(grant => {
                     const li = document.createElement('li');
                     li.className = 'bg-white dark:bg-gray-800 p-2 rounded-lg shadow hover:shadow-md transition';
                     li.innerHTML = `
                       <p class="text-xs font-semibold text-gray-700 dark:text-gray-300">
-                        ${degree.date} • ${degree.title}
+                        ${grant.date} • ${grant.title}
+                      </p>
+                      <p class="text-xs text-gray-700 dark:text-gray-300">
+                        ${grant.description ? `${grant.description}` : ''}
                       </p>
                     `;
                     list.appendChild(li);
