@@ -35,54 +35,70 @@
       <section id="projects" class="py-10 px-6 max-w-3xl mx-auto text-justify">
 
         <h3 class="text-2xl font-bold mb-6">Projects</h3>
-        <p>
 
-        </p>
-
-        <div class="py-5">
-          <h3 class="text-large font-semibold mb-2">Since 2025 • Decision Trees for Exact Combinatorial Optimization</h3>
-          <p class="py-2 mt-2 mx-auto">
-            We develop a novel kind of exact solution method for combinatorial optimization problems by encoding the feasible set into a decision tree structure. The tree only needs to be constructed once for a given feasible set, and the problem can then be solved for any new objective function via a fast traversal operation. In contrast to traditional approaches, this method allows for very efficient re-optimization capabilities and is particularly relevant in dynamic or real-time contexts.
-          </p>
-          <p>
-            <span class="font-semibold">Collaborators:</span> <a href="https://scholar.google.com/citations?user=qbO0xwUAAAAJ" class="hover:text-primary">Thibaut Vidal</a> (Polytechnique Montréal), <a href="https://scholar.google.fr/citations?user=umGuS18AAAAJ" class="hover:text-primary">Maximilian Schiffer</a> (Technical University of Munich), <a href="https://scholar.google.fr/citations?user=ZHLJCRkAAAAJ" class="hover:text-primary">Eduardo Uchoa</a> (Fluminense University), <a href="https://github.com/cleberoli" class="hover:text-primary">Cleber Oliveira</a> (Catholic University of Rio de Janeiro).
+        <ul id="project-list" class="space-y-2 text-sm leading-snug">
+          <li class="bg-white dark:bg-gray-800 p-2 rounded-lg shadow hover:shadow-md transition">
+            <div>
+              <p class="text-s font-semibold text-gray-700 dark:text-gray-300">
+                Since 2025 • Decision Trees for Exact Combinatorial Optimization
+              </p>
+              <p class="py-2 text-s">
+                We develop a novel kind of exact solution method for combinatorial optimization problems by encoding the feasible set into a decision tree structure. The tree only needs to be constructed once for a given feasible set and can then be used to recover the solution corresponding to any objective function via a very fast traversal operation. In contrast to traditional approaches, this method allows for very efficient re-optimization capabilities and is particularly relevant in dynamic or real-time contexts.
+              </p>
             </div>
-          </p>
-        </div>
+            <p class="text-s text-gray-700 dark:text-gray-300">
+              <span class="font-semibold">Collaborators:</span> <a href="https://scholar.google.com/citations?user=qbO0xwUAAAAJ" class="hover:text-primary">Thibaut Vidal</a>, <a href="https://scholar.google.fr/citations?user=umGuS18AAAAJ" class="hover:text-primary">Maximilian Schiffer</a>, <a href="https://scholar.google.fr/citations?user=ZHLJCRkAAAAJ" class="hover:text-primary">Eduardo Uchoa</a>, <a href="https://github.com/cleberoli" class="hover:text-primary">Cleber Oliveira</a>.
+            </p>
+          </li>
 
-        <div class="py-5">
-          <h3 class="text-large font-semibold mb-2">Since 2025 • Routing Problems for Orbital Debris Remediation with NASA</h3>
-          <p class="py-2 mt-2 mx-auto">
-            NASA is planning to remediate debris orbiting Earth to prevent collisions with operational satellites. The routing of debris-removing spacecraft is a key component to the mission success. In collaboration with NASA, we are developing an algorithm combining vehicle routing metaheuristics and machine learning pipelines to construct an optimal route plan of debris to be visited, mitigating fuel cost and mission time.
-          </p>
-          <p>
-            <span class="font-semibold">Collaborators:</span> <a href="https://scholar.google.com/citations?user=qbO0xwUAAAAJ" class="hover:text-primary">Thibaut Vidal</a> (Polytechnique Montréal), <a href="https://scholar.google.fr/citations?user=UHE0jioAAAAJ" class="hover:text-primary">Mingde Yin</a> (University of Toronto), <a href="https://www.linkedin.com/in/grahammackintosh/" class="hover:text-primary">Graham Mackintosh</a> (NASA), <a href="https://www.linkedin.com/in/thomas-templin/" class="hover:text-primary">Thomas Tremplin</a> (NASA).
+          <!--  -->
+
+          <li class="bg-white dark:bg-gray-800 p-2 rounded-lg shadow hover:shadow-md transition">
+            <div>
+              <p class="text-s font-semibold text-gray-700 dark:text-gray-300">
+                Since 2025 • Routing Problems for Orbital Debris Remediation with NASA
+              </p>
+              <p class="py-2 text-s">
+                NASA is planning to remediate debris orbiting Earth to prevent collisions with operational satellites. The routing of debris-removing spacecraft is a key component to the mission success. In collaboration with NASA, we are developing a large-scale algorithm combining vehicle routing metaheuristics and machine learning pipelines to construct an optimal route plan of debris to be visited, mitigating fuel cost and mission time for a fleet of spacecraft.
+              </p>
             </div>
-          </p>
-        </div>
+            <p class="text-s text-gray-700 dark:text-gray-300">
+              <span class="font-semibold">Collaborators:</span> <a href="https://scholar.google.com/citations?user=qbO0xwUAAAAJ" class="hover:text-primary">Thibaut Vidal</a>, <a href="https://scholar.google.fr/citations?user=UHE0jioAAAAJ" class="hover:text-primary">Mingde Yin</a>, <a href="https://www.linkedin.com/in/grahammackintosh/" class="hover:text-primary">Graham Mackintosh</a>, <a href="https://www.linkedin.com/in/thomas-templin/" class="hover:text-primary">Thomas Tremplin</a>.
+            </p>
+          </li>
 
-        <div class="py-5">
-          <h3 class="text-large font-semibold mb-2">Since 2021 • Combinatorial Optimization Methods for L0-norm Problems</h3>
-          <p class="py-2 mt-2 mx-auto">
-            L0-norm problems are used in machine learning to build interpretable models with few parameters. They are of combinatorial nature and had previously mostly only been treated approximately. We have developed a novel framework to solve them exactly through a dedicated branch-and-bound algorithm, implementing dedicated acceleration strategies. It is implemented in the <a href="https://github.com/TheoGuyard/El0ps" class="hover:text-primary">[el0ps]</a> toolbox, now state-of-the-art to tackle these problems both regarding the framework flexibility and the numerical efficiency.
-          </p>
-          <p>
-            <span class="font-semibold">Collaborators:</span> <a href="https://scholar.google.fr/citations?user=wO7HamwAAAAJ" class="hover:text-primary">Cédric Herzet</a> (ENSAI), <a href="https://scholar.google.fr/citations?user=2LSEQYcAAAAJ" class="hover:text-primary">Clément Elvira</a> (CentraleSupélec), <a href="https://www.researchgate.net/profile/Ayse-Arslan-7" class="hover:text-primary">Ayse-Nur Arslan</a> (Inria), <a href="https://scholar.google.fr/citations?user=lVz-ocwAAAAJ" class="hover:text-primary">Gilles Monnoyer</a> (Catholic University of Louvain).
+          <!--  -->
+
+          <li class="bg-white dark:bg-gray-800 p-2 rounded-lg shadow hover:shadow-md transition">
+            <div>
+              <p class="text-s font-semibold text-gray-700 dark:text-gray-300">
+                Since 2021 • Combinatorial Optimization Methods for L0-norm Problems
+              </p>
+              <p class="py-2 text-s">
+                L0-norm problems are used in machine learning, signal processing, and statistics for feature selection tasks. They are of combinatorial nature and had mostly been treated approximately. We have developed a novel framework to solve them exactly through a dedicated branch-and-bound algorithm, implementing tailored acceleration strategies. It is implemented in the <a href="https://github.com/TheoGuyard/El0ps" class="hover:text-primary">el0ps</a> toolbox, now state-of-the-art to tackle these problems both regarding the framework flexibility and the numerical efficiency, achieving orders of magnitude speedups compared to competitors.
+              </p>
             </div>
-          </p>
-        </div>
+            <p class="text-s text-gray-700 dark:text-gray-300">
+              <span class="font-semibold">Collaborators:</span> <a href="https://scholar.google.fr/citations?user=wO7HamwAAAAJ" class="hover:text-primary">Cédric Herzet</a>, <a href="https://scholar.google.fr/citations?user=2LSEQYcAAAAJ" class="hover:text-primary">Clément Elvira</a>, <a href="https://www.researchgate.net/profile/Ayse-Arslan-7" class="hover:text-primary">Ayse-Nur Arslan</a>, <a href="https://scholar.google.fr/citations?user=lVz-ocwAAAAJ" class="hover:text-primary">Gilles Monnoyer</a>.
+            </p>
+          </li>
 
-        <div class="py-5">
-          <h3 class="text-large font-semibold mb-2">Since 2019 • Dimensionality Reduction Methods for Sparse Convex Optimization</h3>
-          <p class="py-2 mt-2 mx-auto">
-            Convex sparse optimization problems can be tackled via various first-order methods. We have developed novel techniques for these algorithms allowing for the identification of zero and non-zero entries in the problem solution during the optimization process. Dimensionality reduction and convergence acceleration are then achieved upon this identification. Our work mainly relies on sharp convex analysis results related to Fenchel duality theory.
-          </p>
-          <p>
-            <span class="font-semibold">Collaborators:</span> <a href="https://scholar.google.fr/citations?user=wO7HamwAAAAJ" class="hover:text-primary">Cédric Herzet</a> (ENSAI), <a href="https://scholar.google.fr/citations?user=2LSEQYcAAAAJ" class="hover:text-primary">Clément Elvira</a> (CentraleSupélec).
+          <!--  -->
+
+          <li class="bg-white dark:bg-gray-800 p-2 rounded-lg shadow hover:shadow-md transition">
+            <div>
+              <p class="text-s font-semibold text-gray-700 dark:text-gray-300">
+                Since 2019 • Dimensionality Reduction Methods for Sparse Convex Optimization
+              </p>
+              <p class="py-2 text-s">
+                Convex sparse optimization problems can be tackled via various first-order methods. We have developed novel techniques to accelerate these algorithms through the identification of zero and non-zero entries in the problem solution during the optimization process. Upon this identification, dimensionality reduction and convergence acceleration can be achieved. Ultimately, our method allows transforming the first-order method into a second-order one, allowing fast convergence to high-accuracy solutions. Our work mainly relies on sharp convex analysis results related to Fenchel duality theory.
+              </p>
             </div>
-          </p>
-        </div>
-
+            <p class="text-s text-gray-700 dark:text-gray-300">
+              <span class="font-semibold">Collaborators:</span> <a href="https://scholar.google.fr/citations?user=wO7HamwAAAAJ" class="hover:text-primary">Cédric Herzet</a>, <a href="https://scholar.google.fr/citations?user=2LSEQYcAAAAJ" class="hover:text-primary">Clément Elvira</a>.
+            </p>
+          </li>
+        </ul>
       </section>
 
     </main>

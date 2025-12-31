@@ -24,7 +24,7 @@
     <div id="header-placeholder"></div>
 
     <!-- Hero Section -->
-    <section class="text-center pt-24 pb-12 px-4 relative">
+    <section class="text-center pt-14 py-5 px-4 relative">
       <h2 class="text-5xl font-extrabold mb-6 tracking-tight">Théo Guyard</h2>
       <p class="text-xl max-w-2xl mx-auto">
         Postdoctoral Researcher in Optimization and Machine Learning
@@ -49,27 +49,37 @@
           </a>
       </p>
       <br>
-      <span class="max-w-2xl mx-auto">
+      <div class="flex justify-center">
+        <a
+          href="https://github.com/TheoGuyard/cv/raw/main/aux/main.pdf"
+          class="
+            inline-flex items-center gap-2
+            px-6 py-3 rounded-full font-medium
+            transition-all
+            bg-gray-900 text-white
+            hover:bg-primary
+            dark:bg-gray-100 dark:text-gray-900
+            dark:hover:bg-primary dark:hover:text-white
+            shadow-md hover:shadow-lg
+          "
+        >
         Get my full CV
-        <a class="hover:text-primary" href="https://github.com/TheoGuyard/cv/raw/main/aux/main.pdf">[here]</a>
-      </span>
+        </a>
+      </div>
       <div id="blurry-circle" class="absolute top-0 left-1/2 transform -translate-x-1/2 z-[-1] blur-2xl opacity-50 w-80 h-80 rounded-full bg-gradient-to-tr from-indigo-500 via-purple-500 to-orange-500"></div>
     </section>
 
     <!-- About Section -->
-    <section class="py-10 px-6 max-w-3xl mx-auto text-justify">
-      <div class="py-5">
+    <section class="py-5 px-6 max-w-3xl mx-auto text-justify">
+      <div>
         <h3 class="text-2xl font-bold mb-4">About</h3>
         <p class="leading-relaxed">
-          I am a Postdoctoral Researcher at Polytechnique Montréal affiliated to the Scale-AI chair held by Thibaut Vidal. Prior to that, I received a PhD in Applied Mathematics at INRIA Rennes under the supervision of Cédric Herzet, Clément Elvira and Ayşe-Nur Arslan. I earned an Engineering Degree (MSc equivalent) specialized in Applied Mathematics from INSA Rennes where I also followed a research program to work with academic researchers for two years before graduating.
+          I am a Postdoctoral Researcher at Polytechnique Montréal affiliated to the SCALE-AI chair held by Professor <a href="https://scholar.google.com/citations?user=qbO0xwUAAAAJ" class="hover:text-primary">Thibaut Vidal</a>. Prior to that, I received a PhD in Applied Mathematics from INSA and INRIA Rennes under the supervision of <a href="https://scholar.google.fr/citations?user=wO7HamwAAAAJ" class="hover:text-primary">Cédric Herzet</a>, <a href="https://scholar.google.fr/citations?user=2LSEQYcAAAAJ" class="hover:text-primary">Clément Elvira</a> , and <a href="https://www.researchgate.net/profile/Ayse-Arslan-7" class="hover:text-primary">Ayse-Nur Arslan</a>. I earned an MSc in Applied Mathematics from INSA Rennes where I also followed a research program to collaborate with academic researchers for two years before graduating.
         </p>
-      </div>
-      <div class="py-5">
-        <h3 class="text-2xl font-bold mb-4">Research interests</h3>
+        <br>
         <p class="leading-relaxed">
-          My works mainly focus on mathematical optimization with both convex and mixed-integer problems related to various applications, including machine learning and signal processing. I was particularity interested in sparse optimization problems involving the L0-norm during my PhD. For my postdoctoral position, I am working on building decision trees to solve instances of mixed-integer programs in polynomial time.
+          My work mainly focuses on mathematical optimization methods for both mixed-integer and convex problems related to machine learning applications. I currently investigate how decision trees can be used to solve combinatorial optimization problems exactly. I also collaborate with NASA on a spacecraft routing problem for space debris remediation. Since my PhD, I am also involved in the development of state-of-the-art combinatorial optimization methods to solve L0-norm problems used for feature selection tasks in machine learning, signal processing, and statistics.
         </p>
-      </div>
     </section>
 
     <!-- Footer -->
