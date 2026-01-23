@@ -1,4 +1,5 @@
 name,language,description,github,pipy,juliapkgs
+treeco,C++,Efficient decision policies for Combinatorial Optimization via decision trees.,https://github.com/TheoGuyard/treeco,,
 el0ps,Python,Toolbox to solve L0-regularized problems.,https://github.com/TheoGuyard/El0ps,https://pypi.org/project/el0ps/,
 exprun,Python,"Automatized pipelines for reproducible experiments.",https://github.com/TheoGuyard/ExpRun,https://pypi.org/project/exprun/,
 libsvmdata,Julia,Simple tool to fetch LIBSVM datasets to Julia.,https://github.com/TheoGuyard/LIBSVMdata.jl,,https://juliapackages.com/p/libsvmdata
