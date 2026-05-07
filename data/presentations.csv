@@ -1,12 +1,15 @@
 year,month,day,event,place,country,title,slides
-2025,9,22,Futurs Numériques IVADO,Université de Montréal,Canada,SCORPION: Sequencing via Combinatorial Optimization for Rendezvous Planning and Intelligent Orbital Navigation,
-2025,8,26,IVADO Section 9 Meeting,Montréal,Canada,RETRO: Optimization of Orbital Debris Remediation through Machine Learning and Combinatorial Optimization,
+2026,7,13,IFORS,Vienna,Austria,Orbital debris remediation at scale via enhanced RQ-law and combinatorial metaheuristics,
+2026,5,13,JOPT,Montréal,Canada,Solving Integer Linear Programs through Decision Trees,
+2026,5,7,IVADO Research Meeting,Montréal,Canada,Orbital debris remediation at scale,
+2025,9,22,Futurs Numériques IVADO,Montréal,Canada,SCORPION: Sequencing via Combinatorial Optimization for Rendezvous Planning and Intelligent Orbital Navigation,
+2025,8,26,IVADO Research Meeting,Montréal,Canada,RETRO: Optimization of Orbital Debris Remediation through Machine Learning and Combinatorial Optimization,
 2025,5,12,JOPT,Montréal,Canada,Branch-and-Bound Algorithms for L0-norm Problems,https://github.com/TheoGuyard/slides_2025-05-12_JOPT/raw/main/aux/main.pdf
 2025,3,26,CIRRELT lecture group,Montréal,Canada,Optimization methods with logical constraints,
 2025,3,6,CIRRELT seminar,Montréal,Canada,Optimization methods for L0-regularized problems,https://github.com/TheoGuyard/slides_2025-03-06_CIRRELT/raw/main/aux/main.pdf
 2024,12,9,IMAG team seminar,Montpellier,France,Solving L0-norm problems via mixed-integer optimization,https://github.com/TheoGuyard/slides_2024-12-09_ML-MTP_L0-problems/raw/main/aux/main.pdf
 2024,11,27,PhD Defense,Rennes,France,Branch-and-Bound algorithms for L0-regularized problems,https://github.com/TheoGuyard/slides_2024-11-27_Phd-defense/raw/main/aux/main.pdf
-2024,9,16,GdR IASIS Workshop,Institut Henri Poincaré,France,Toward stronger relaxations for L0-regularized problems,https://github.com/TheoGuyard/slides_2024-09-16_GdR-IASIS_L0-relaxations/raw/main/aux/main.pdf
+2024,9,16,GdR IASIS Workshop,Paris,France,Toward stronger relaxations for L0-regularized problems,https://github.com/TheoGuyard/slides_2024-09-16_GdR-IASIS_L0-relaxations/raw/main/aux/main.pdf
 2024,7,24,ICML,Vienna,Austria,A new Branch-and-Bound pruning framework for L0-regularized problems,https://github.com/TheoGuyard/poster_2024-07-24_ICML_Node-screening/raw/main/main.pdf
 2024,3,28,SMAI-MODE days,Lyon,France,A generic Branch-and-Bound for L0-penalized problems,https://github.com/TheoGuyard/poster_2024-03-28_SMAI-MODE_Branch-and-bound/raw/main/aux/main.pdf
 2024,3,28,SMAI-MODE days,Lyon,France,Screen-and-Relax for sparse support identification,https://github.com/TheoGuyard/slides_2024-03-28_SMAI-MODE_Screen-and-relax/raw/main/aux/main.pdf

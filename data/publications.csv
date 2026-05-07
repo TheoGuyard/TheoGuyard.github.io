@@ -1,4 +1,5 @@
 year,venue,title,authors,paper,supplements,code,summary
+2026,Preprint,Linear Decision Tree Policies for Integer Linear Programs,"Théo Guyard, Cleber Oliveira, Maximilian Schiffer, Eduardo Uchoa, Thibaut Vidal",https://arxiv.org/pdf/2605.02582,,https://github.com/TheoGuyard/treeco,
 2025,Preprint,El0ps: An exact L0-regularized problem solver,"Théo Guyard, Cédric Herzet, Clément Elvira",https://arxiv.org/pdf/2506.06373,,https://github.com/TheoGuyard/El0ps,
 2025,Preprint,A generic branch-and-bound algorithm for L0-regularized problems,"Clément Elvira, Théo Guyard, Cédric Herzet",https://arxiv.org/pdf/2506.03974,,https://github.com/TheoGuyard/El0ps,
 2024,PhD thesis,Branch-and-bound algorithms for L0-regularized problems,"Théo Guyard",https://hal.science/tel-04926869v1/document,,https://github.com/TheoGuyard/El0ps,https://github.com/TheoGuyard/paper_2025_Phd-summary/raw/main/aux/main.pdf
