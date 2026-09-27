@@ -1,4 +1,5 @@
 name,language,description,github,pipy,juliapkgs
+mcrdv,Python,Multi-chaser rendezvous planning software.,https://github.com/TheoGuyard/mcrdv,,
 treeco,C++,Efficient decision policies for Combinatorial Optimization via decision trees.,https://github.com/TheoGuyard/treeco,,
 el0ps,Python,Toolbox to solve L0-regularized problems.,https://github.com/TheoGuyard/El0ps,https://pypi.org/project/el0ps/,
 exprun,Python,"Automatized pipelines for reproducible experiments.",https://github.com/TheoGuyard/ExpRun,https://pypi.org/project/exprun/,
